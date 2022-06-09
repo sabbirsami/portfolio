@@ -6,7 +6,10 @@ const HeaderNav = () => {
     return (
         <Navbar collapseOnSelect expand="lg">
             <Container>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Toggle
+                    aria-controls="responsive-navbar-nav "
+                    className="ms-auto d-lg-none d-block border-0"
+                />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <CustomLink to="/features">Features</CustomLink>
