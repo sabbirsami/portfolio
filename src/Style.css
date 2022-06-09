@@ -2,6 +2,16 @@ body {
     font-family: "Nuosu SIL", serif;
     font-family: "Poppins", sans-serif;
 }
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #dddddd;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #e04d5b;
+    border-radius: 100px;
+}
 .bg-yellow {
     background-color: #fbd062;
 }
