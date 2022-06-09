@@ -1,27 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import HeaderNav from "./HeaderNav";
 import project1 from "./img/project1.jpg";
 import project2 from "./img/project2.jpg";
 import project3 from "./img/project3.jpg";
-
-const Works = () => {
+const AllWork = () => {
     return (
         <div>
+            <HeaderNav></HeaderNav>
             <div className="container py-5">
                 <div className="row justify-content-between align-items-center">
-                    <div className="col-lg-7">
+                    <div className="col-lg-7 pb-4">
                         <h1>My Latest Works</h1>
                         <p>To see project details click on the image</p>
                     </div>
-                    <div className="col-lg-5 text-end me-auto">
-                        <p>
-                            <Link to="/works" className="text-danger nav-link">
-                                Explore More Works
-                            </Link>
-                        </p>
-                    </div>
                 </div>
-                <div className="row pb-4">
+                <div className="row">
                     <div className="col-lg-4">
                         <div className="py-3">
                             <img
@@ -55,4 +49,4 @@ const Works = () => {
     );
 };
 
-export default Works;
+export default AllWork;
