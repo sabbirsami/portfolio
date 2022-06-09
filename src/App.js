@@ -1,10 +1,13 @@
 import Home from "./Components/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
     return (
         <div>
-            <Home></Home>
+            <Routes>
+                <Route path="/" element={<Home></Home>}></Route>
+            </Routes>
         </div>
     );
 }
