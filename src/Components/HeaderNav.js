@@ -1,5 +1,7 @@
 import React from "react";
 import CustomLink from "./CustomLink";
+import { GrLinkedinOption } from "react-icons/gr";
+import { FaGithub } from "react-icons/fa";
 import { Container, Nav, Navbar } from "react-bootstrap";
 
 const HeaderNav = () => {
@@ -16,10 +18,18 @@ const HeaderNav = () => {
                         <CustomLink to="/pricing">CONTACT</CustomLink>
                     </Nav>
                     <Nav>
-                        <CustomLink to="/deets">More deets</CustomLink>
-                        <CustomLink eventKey={2} to="/memes">
-                            Dank memes
-                        </CustomLink>
+                        <Nav.Link
+                            target="_blank"
+                            href="https://github.com/sabbirsami"
+                        >
+                            <FaGithub></FaGithub>
+                        </Nav.Link>
+                        <Nav.Link
+                            target="_blank"
+                            href="https://www.linkedin.com/in/sabbir-mohammad-sami"
+                        >
+                            <GrLinkedinOption></GrLinkedinOption>
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
