@@ -1,7 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Style.css";
-import Home from "./Components/Home";
 import Contact from "./Components/Contact";
+import HeaderNav from "./Components/HeaderNav";
+import Home from "./Components/Home";
 import { Route, Routes } from "react-router-dom";
 
 function App() {

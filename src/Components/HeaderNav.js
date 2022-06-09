@@ -2,11 +2,12 @@ import React from "react";
 import CustomLink from "./CustomLink";
 import { GrLinkedinOption } from "react-icons/gr";
 import { FaGithub } from "react-icons/fa";
+import { GoHome } from "react-icons/go";
 import { Container, Nav, Navbar } from "react-bootstrap";
 
 const HeaderNav = () => {
     return (
-        <Navbar collapseOnSelect expand="lg">
+        <Navbar collapseOnSelect expand="lg" bg="none">
             <Container>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav "
@@ -14,6 +15,9 @@ const HeaderNav = () => {
                 />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
+                        <CustomLink to="/">
+                            <GoHome className="mb-1"></GoHome>
+                        </CustomLink>
                         <CustomLink to="/work">WORK</CustomLink>
                         <CustomLink to="/contact">CONTACT</CustomLink>
                     </Nav>

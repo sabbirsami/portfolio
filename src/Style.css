@@ -1,3 +1,10 @@
 body {
     font-family: "Nuosu SIL", serif;
+    font-family: "Poppins", sans-serif;
+}
+.bg-yellow {
+    background-color: #fbd062;
+}
+.hero-heading {
+    font-family: "Nuosu SIL", serif;
 }
