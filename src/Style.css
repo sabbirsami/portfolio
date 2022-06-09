@@ -3,13 +3,13 @@ body {
     font-family: "Poppins", sans-serif;
 }
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 6px;
 }
 ::-webkit-scrollbar-track {
     background: #dddddd;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #e04d5b;
+    background-color: #404040;
     border-radius: 100px;
 }
 .bg-yellow {
