@@ -6,13 +6,13 @@ const Hero = () => {
     return (
         <div>
             <div className="container">
-                <div className="py-5 text-center">
+                <div className="pt-5 pb-4 text-center">
                     <h1 className="">Sabbir Mohammad Sami</h1>
                     <h1>Junior Full Stack Web Developer</h1>
                     <a
-                        href="./Sabbir-Mohammad-Sami-Resume.pdf"
-                        title=""
-                        download
+                        href="https://drive.google.com/file/d/1au2UuM0kgZb5py4HmvhYI673dy0i7siQ/view?usp=sharing"
+                        target="_blank"
+                        // download
                         className="fs-2 nav-link pt-0"
                     >
                         Download Resume
