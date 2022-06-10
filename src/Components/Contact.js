@@ -12,7 +12,7 @@ const Contact = () => {
         <div style={{ height: "100vh", backgroundColor: "#F8F7F1" }}>
             <HeaderNav></HeaderNav>
             <div
-                className="d-flex align-items-center"
+                className="d-flex  align-items-center"
                 style={{ height: "94vh", backgroundColor: "#F8F7F1" }}
             >
                 <div className="container d-flex justify-content-center py-5">
@@ -29,6 +29,23 @@ const Contact = () => {
                                         saying hi
                                     </span>
                                 </h1>
+                            </div>
+                            <div className="">
+                                <p className=" text-muted">
+                                    <p>CONTACT</p>
+                                </p>
+                                <p className="p-0 m-0">
+                                    <HiLocationMarker></HiLocationMarker> Dhaka,
+                                    Bangladesh{" "}
+                                    <span className="ps-lg-3">
+                                        <AiFillPhone></AiFillPhone> +880 19 7070
+                                        6676
+                                    </span>
+                                </p>
+                                <p className="p-0 m-0">
+                                    <IoMail></IoMail>{" "}
+                                    sabbir.mohammad.sami@gmail.com
+                                </p>
                             </div>
                         </div>
                         <div className="col-lg-5">
@@ -71,7 +88,7 @@ const Contact = () => {
                                         type="submit"
                                     >
                                         Sent
-                                    </Button>
+                                    </Button>{" "}
                                 </Form>
                             </div>
                         </div>
