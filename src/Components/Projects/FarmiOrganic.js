@@ -1,6 +1,4 @@
 import React from "react";
-import { CgArrowLongRight } from "react-icons/cg";
-import { Link } from "react-router-dom";
 import HeaderNav from "../HeaderNav";
 import project2 from "../img/project2.jpg";
 
@@ -42,19 +40,13 @@ const FarmiOrganic = () => {
                                     Firebase
                                 </span>
                                 <span class="badge border border-1 me-2 mt-2 text-dark ">
-                                    JWT
+                                    React hook form
                                 </span>
                                 <span class="badge border border-1 me-2 mt-2 text-dark ">
                                     MongoDB
                                 </span>
                                 <span class="badge border border-1 me-2 mt-2 text-dark ">
                                     Heroku
-                                </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
-                                    Stripe
-                                </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
-                                    React Query
                                 </span>
                                 <span class="badge border border-1 me-2 mt-2 text-dark ">
                                     React Hot Tost
@@ -66,12 +58,10 @@ const FarmiOrganic = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="py-3 px-2">
-                                <h5 className="fw-bold">Sami Industry</h5>
+                                <h5 className="fw-bold">Farmi Organic</h5>
                                 <p>
-                                    This is tools manufacturer website. Where
-                                    user can order tools. In this website users
-                                    also able to pay for their ordered tools
-                                    using Credit/Divide card
+                                    This is inventory management website. Where
+                                    user can manage inventory's.
                                 </p>
                                 <p>
                                     <h6>Overview:</h6>
@@ -81,22 +71,17 @@ const FarmiOrganic = () => {
                                             system via Google Firebase.
                                         </li>
                                         <li className="pb-2">
-                                            On this website users can order
-                                            products and pay for this product
-                                            Users can also be able to give
-                                            review.
+                                            On this website users can add
+                                            product in add product route.
                                         </li>
                                         <li className="pb-2">
-                                            Different dashboards for users and
-                                            admin. Admin can make other admin or
-                                            add and remove product and reviews
+                                            Users can also delete product.
                                         </li>
                                         <li className="pb-2">
-                                            Implemented JWT token for security
-                                            purpose.
+                                            User can update stock
                                         </li>
                                         <li className="pb-2">
-                                            Admin can upload tools image
+                                            Users can upload inventory image
                                             directly from their local file and
                                             it will automatically upload to
                                             ibb.co website and set this link in
@@ -107,7 +92,7 @@ const FarmiOrganic = () => {
                                 <button className="btn btn-white ">
                                     <a
                                         className="text-success text-decoration-none"
-                                        href="https://sami-industry.web.app/"
+                                        href="https://farmi-organic.web.app/"
                                         target="_blank"
                                         rel=""
                                     >
@@ -118,7 +103,7 @@ const FarmiOrganic = () => {
                                 <button className="btn btn-white text-success">
                                     <a
                                         className="text-success text-decoration-none"
-                                        href="https://github.com/sabbirsami/sami-industry"
+                                        href="https://github.com/sabbirsami/farmi-organic"
                                         target="_blank"
                                         rel=""
                                     >
@@ -129,7 +114,7 @@ const FarmiOrganic = () => {
                                 <button className="btn btn-white text-success">
                                     <a
                                         className="text-success text-decoration-none"
-                                        href="https://github.com/sabbirsami/sami-industry-server"
+                                        href="https://github.com/sabbirsami/farmi-organic-server"
                                         target="_blank"
                                         rel=""
                                     >
