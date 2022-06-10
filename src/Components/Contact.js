@@ -32,13 +32,13 @@ const Contact = () => {
         <div style={{ height: "100vh", backgroundColor: "#F8F7F1" }}>
             <HeaderNav></HeaderNav>
             <div
-                className="d-flex  align-items-center"
+                className="d-flex py-5 align-items-center"
                 style={{ height: "94vh", backgroundColor: "#F8F7F1" }}
             >
                 <div className="container d-flex justify-content-center py-5">
-                    <div className="row">
+                    <div className="row ">
                         {/* d-flex flex-column */}
-                        <div className="col-lg-7">
+                        <div className="col-lg-7 pt-lg-0 mt-lg-0 pt-5 mt-5">
                             <h1>
                                 Let's talk & make something amazing together.
                             </h1>
@@ -57,19 +57,19 @@ const Contact = () => {
                                 <p className="p-0 m-0">
                                     <HiLocationMarker></HiLocationMarker> Dhaka,
                                     Bangladesh{" "}
-                                    <span className="ps-lg-3">
+                                    <span className="ps-lg-3 d-lg-inline d-block">
                                         <AiFillPhone></AiFillPhone> +880 19 7070
                                         6676
                                     </span>
                                 </p>
-                                <p className="p-0 m-0">
+                                <p className="pb-4 m-0">
                                     <IoMail></IoMail>{" "}
                                     sabbir.mohammad.sami@gmail.com
                                 </p>
                             </div>
                         </div>
                         <div className="col-lg-5">
-                            <div className="pb-4 px-3">
+                            <div className="pb-4 px-lg-3">
                                 <Form ref={form} onSubmit={sendEmail}>
                                     <Form.Group
                                         className="mb-3"
