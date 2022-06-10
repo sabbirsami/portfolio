@@ -1,13 +1,33 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import HeaderNav from "./HeaderNav";
 import { HiLocationMarker } from "react-icons/hi";
 import { AiFillPhone } from "react-icons/ai";
 import { IoMail } from "react-icons/io5";
-import { FaGithub } from "react-icons/fa";
-import { GrLinkedinOption } from "react-icons/gr";
-import { Button, Form, Nav } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 
 const Contact = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(
+                "sabbir-mohammad-sami",
+                "template_rgdvwbm",
+                form.current,
+                "qdhDVcg6u8gZ0Y4y5"
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                },
+                (error) => {
+                    console.log(error.text);
+                }
+            );
+        e.target.reset();
+    };
     return (
         <div style={{ height: "100vh", backgroundColor: "#F8F7F1" }}>
             <HeaderNav></HeaderNav>
@@ -50,12 +70,13 @@ const Contact = () => {
                         </div>
                         <div className="col-lg-5">
                             <div className="pb-4 px-3">
-                                <Form>
+                                <Form ref={form} onSubmit={sendEmail}>
                                     <Form.Group
                                         className="mb-3"
                                         controlId="exampleForm.ControlInput1"
                                     >
                                         <Form.Control
+                                            name="email"
                                             type="email"
                                             className="rounded-1 border-0 py-3"
                                             placeholder="Your email address"
@@ -66,6 +87,7 @@ const Contact = () => {
                                         controlId="exampleForm.ControlInput1"
                                     >
                                         <Form.Control
+                                            name="company_name"
                                             type="text"
                                             className="rounded-1 border-0 py-3"
                                             placeholder="Your name / company’s name"
@@ -76,6 +98,7 @@ const Contact = () => {
                                         controlId="exampleForm.ControlTextarea1"
                                     >
                                         <Form.Control
+                                            name="message"
                                             as="textarea"
                                             rows={6}
                                             className="rounded-1 border-0 py-3"
