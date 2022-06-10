@@ -10,8 +10,8 @@ const Home = () => {
         <div>
             <HeaderNav />
             <Hero />
-            <About />
             <Works />
+            <About />
             <Footer></Footer>
         </div>
     );

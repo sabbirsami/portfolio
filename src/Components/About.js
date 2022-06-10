@@ -2,30 +2,11 @@ import React from "react";
 
 const About = () => {
     return (
-        <div style={{ backgroundColor: "#F8F7F1" }}>
+        <div>
             <div className="container">
                 <div className="py-5">
                     {/* <h1 className="text-center">About Me</h1> */}
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <div className="py-lg-5">
-                                <div className="mb-3">
-                                    <h5 className="fw-light text-muted">
-                                        EDUCATION
-                                    </h5>
-                                </div>
-                                <h5 className="fw-bold">
-                                    Kabi Nazrul Govt. College
-                                </h5>
-                                <p>Sep 2020 - Aug 2022</p>
-                            </div>
-                            <div className="py-lg-4">
-                                <h5 className="fw-bold">
-                                    Bangladesh National Cadet Corps
-                                </h5>
-                                <p>Sep 2020 - Aug 2022</p>
-                            </div>
-                        </div>
+                    <div className="row justify-content-between">
                         <div className="col-lg-5">
                             <div className="py-lg-5">
                                 <div className="mb-3">
@@ -48,6 +29,25 @@ const About = () => {
                                     down-to-earth honest, confident, fun-loving,
                                     and caring as well.
                                 </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 text-lg-end">
+                            <div className="py-lg-5">
+                                <div className="mb-3">
+                                    <h5 className="fw-light text-muted">
+                                        EDUCATION
+                                    </h5>
+                                </div>
+                                <h5 className="fw-bold">
+                                    Kabi Nazrul Govt. College
+                                </h5>
+                                <p>Sep 2020 - Aug 2022</p>
+                            </div>
+                            <div className="py-lg-4">
+                                <h5 className="fw-bold">
+                                    Bangladesh National Cadet Corps
+                                </h5>
+                                <p>Sep 2020 - Aug 2022</p>
                             </div>
                         </div>
                     </div>

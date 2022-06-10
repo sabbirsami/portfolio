@@ -24,7 +24,7 @@ const Works = () => {
                         </p>
                     </div>
                 </div>
-                <div className="row pb-4">
+                <div className="row pb-3">
                     <div className="col-lg-4">
                         <div className="py-3">
                             <img
@@ -41,36 +41,6 @@ const Works = () => {
                                 Details <CgArrowLongRight></CgArrowLongRight>
                             </Link>
                         </p>
-
-                        {/* <div>
-                            <span class="badge border border-1 me-2 mt-2 text-dark ">
-                                React JS
-                            </span>
-                            <span class="badge border border-1 me-2 mt-2 text-dark ">
-                                Javascript
-                            </span>
-                            <span class="badge border border-1 me-2 mt-2 text-dark ">
-                                React Bootstrap
-                            </span>
-                            <span class="badge border border-1 me-2 mt-2 text-dark ">
-                                NodeJS
-                            </span>
-                            <span class="badge border border-1 me-2 mt-2 text-dark ">
-                                ExpressJS
-                            </span>
-                            <span class="badge border border-1 me-2 mt-2 text-dark ">
-                                Firebase
-                            </span>
-                            <span class="badge border border-1 me-2 mt-2 text-dark ">
-                                JWT
-                            </span>
-                            <span class="badge border border-1 me-2 mt-2 text-dark ">
-                                MongoDB
-                            </span>
-                            <span class="badge border border-1 me-2 mt-2 text-dark ">
-                                Heroku
-                            </span>
-                        </div> */}
                     </div>
                     <div className="col-lg-4">
                         <div className="py-3">
