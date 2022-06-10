@@ -8,8 +8,8 @@ const FontContact = () => {
                 <div className="row">
                     {/* d-flex flex-column */}
                     <div className="col-lg-7 ">
-                        <h1>Let's talk & make something amazing together</h1>
-                        <div className="pt-lg-5 mt-auto">
+                        <h1>Let's talk & make something amazing together.</h1>
+                        <div className="pt-lg-5 pb-4 mt-auto">
                             <h1>
                                 Start by{" "}
                                 <span className="text-danger text-decoration-underline">
