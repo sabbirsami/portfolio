@@ -8,7 +8,7 @@ const About = () => {
                     {/* <h1 className="text-center">About Me</h1> */}
                     <div className="row justify-content-between">
                         <div className="col-lg-5">
-                            <div className="py-lg-5">
+                            <div className="py-lg-5 p-lg-0 p-2">
                                 <div className="mb-3">
                                     <h5 className="fw-light text-muted">
                                         ABOUT ME
@@ -32,7 +32,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="col-lg-6 text-lg-end">
-                            <div className="py-lg-5">
+                            <div className="py-lg-5 p-lg-0 p-2">
                                 <div className="mb-3">
                                     <h5 className="fw-light text-muted">
                                         EDUCATION
@@ -43,7 +43,7 @@ const About = () => {
                                 </h5>
                                 <p>Sep 2020 - Aug 2022</p>
                             </div>
-                            <div className="py-lg-4">
+                            <div className="py-lg-4 px-lg-0 p-2">
                                 <h5 className="fw-bold">
                                     Bangladesh National Cadet Corps
                                 </h5>
