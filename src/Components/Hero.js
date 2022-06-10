@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import profile from "./IMG-2413.png";
 
 const Hero = () => {

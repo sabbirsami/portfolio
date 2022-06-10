@@ -1,6 +1,4 @@
 import React from "react";
-import { CgArrowLongRight } from "react-icons/cg";
-import { Link } from "react-router-dom";
 import HeaderNav from "../HeaderNav";
 import project1 from "../img/project1.jpg";
 
