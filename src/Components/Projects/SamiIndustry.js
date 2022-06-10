@@ -110,7 +110,7 @@ const SamiIndustry = () => {
                                         className="text-success text-decoration-none"
                                         href="https://sami-industry.web.app/"
                                         target="_blank"
-                                        rel=""
+                                        rel="noreferrer"
                                     >
                                         Live Site
                                     </a>
@@ -121,7 +121,7 @@ const SamiIndustry = () => {
                                         className="text-success text-decoration-none"
                                         href="https://github.com/sabbirsami/sami-industry"
                                         target="_blank"
-                                        rel=""
+                                        rel="noreferrer"
                                     >
                                         Client Site
                                     </a>
@@ -132,7 +132,7 @@ const SamiIndustry = () => {
                                         className="text-success text-decoration-none"
                                         href="https://github.com/sabbirsami/sami-industry-server"
                                         target="_blank"
-                                        rel=""
+                                        rel="noreferrer"
                                     >
                                         Server Site
                                     </a>

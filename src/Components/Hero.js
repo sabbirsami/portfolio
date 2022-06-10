@@ -9,6 +9,7 @@ const Hero = () => {
                     <h1 className="">Sabbir Mohammad Sami</h1>
                     <h1>Junior Full Stack Web Developer</h1>
                     <a
+                        rel="noreferrer"
                         href="https://drive.google.com/file/d/1au2UuM0kgZb5py4HmvhYI673dy0i7siQ/view?usp=sharing"
                         target="_blank"
                         // download

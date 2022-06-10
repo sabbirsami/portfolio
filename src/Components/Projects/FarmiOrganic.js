@@ -91,10 +91,10 @@ const FarmiOrganic = () => {
                                 </p>
                                 <button className="btn btn-white ">
                                     <a
+                                        rel="noreferrer"
                                         className="text-success text-decoration-none"
                                         href="https://farmi-organic.web.app/"
                                         target="_blank"
-                                        rel=""
                                     >
                                         Live Site
                                     </a>
@@ -105,7 +105,7 @@ const FarmiOrganic = () => {
                                         className="text-success text-decoration-none"
                                         href="https://github.com/sabbirsami/farmi-organic"
                                         target="_blank"
-                                        rel=""
+                                        rel="noreferrer"
                                     >
                                         Client Site
                                     </a>
@@ -116,7 +116,7 @@ const FarmiOrganic = () => {
                                         className="text-success text-decoration-none"
                                         href="https://github.com/sabbirsami/farmi-organic-server"
                                         target="_blank"
-                                        rel=""
+                                        rel="noreferrer"
                                     >
                                         Server Site
                                     </a>

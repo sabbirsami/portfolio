@@ -79,7 +79,7 @@ const ToDoNotes = () => {
                                         className="text-success text-decoration-none"
                                         href="https://sami-todo-note.web.app/"
                                         target="_blank"
-                                        rel=""
+                                        rel="noreferrer"
                                     >
                                         Live Site
                                     </a>
@@ -90,7 +90,7 @@ const ToDoNotes = () => {
                                         className="text-success text-decoration-none"
                                         href="https://github.com/sabbirsami/todo-app"
                                         target="_blank"
-                                        rel=""
+                                        rel="noreferrer"
                                     >
                                         Client Site
                                     </a>
@@ -101,7 +101,7 @@ const ToDoNotes = () => {
                                         className="text-success text-decoration-none"
                                         href="https://github.com/sabbirsami/todo-app-server"
                                         target="_blank"
-                                        rel=""
+                                        rel="noreferrer"
                                     >
                                         Server Site
                                     </a>
