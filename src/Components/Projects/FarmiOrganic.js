@@ -2,9 +2,9 @@ import React from "react";
 import { CgArrowLongRight } from "react-icons/cg";
 import { Link } from "react-router-dom";
 import HeaderNav from "../HeaderNav";
-import project1 from "../img/project1.jpg";
+import project2 from "../img/project2.jpg";
 
-const SamiIndustry = () => {
+const FarmiOrganic = () => {
     return (
         <div>
             <HeaderNav></HeaderNav>
@@ -15,7 +15,7 @@ const SamiIndustry = () => {
                             <div className="py-3">
                                 <img
                                     className="w-100 rounded-3"
-                                    src={project1}
+                                    src={project2}
                                     alt=""
                                 />
                             </div>
@@ -145,4 +145,4 @@ const SamiIndustry = () => {
     );
 };
 
-export default SamiIndustry;
+export default FarmiOrganic;
