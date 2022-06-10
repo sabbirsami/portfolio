@@ -7,7 +7,7 @@ const About = () => {
                 <div className="py-5">
                     {/* <h1 className="text-center">About Me</h1> */}
                     <div className="row">
-                        <div className="col-lg-5">
+                        <div className="col-lg-6">
                             <div className="py-lg-5">
                                 <div className="mb-3">
                                     <h5 className="fw-light text-muted">

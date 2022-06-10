@@ -45,9 +45,9 @@ const Hero = () => {
                                     <small>SERVICES</small>
                                 </p>
                                 <p className="p-0 m-0">
-                                    Work for money and design for love!
+                                    Web Development, UI/UX
                                 </p>
-                                <p>I'am Sami, an Web Developer</p>
+                                <p>Web Design</p>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ const Hero = () => {
                             <div className="py-lg-5">
                                 <div className="py-lg-4 py-2">
                                     <p className="pb-lg-4 text-muted">
-                                        <small>Expertise:</small>
+                                        <small>Expertise</small>
                                     </p>
                                     <p className="p-0 m-0">
                                         HTML, CSS, ReactJS, JavaScript - ES6,
@@ -73,7 +73,7 @@ const Hero = () => {
                                 </div>
                                 <div className="py-lg-4">
                                     <p className="pb-lg-4 text-muted">
-                                        <small>Comfortable:</small>
+                                        <small>Comfortable</small>
                                     </p>
                                     <p className="p-0 m-0">
                                         React hooq form, React Toastify,
@@ -85,7 +85,7 @@ const Hero = () => {
                                 </div>
                                 <div className="py-lg-4 py-2">
                                     <p className="pb-lg-4 text-muted">
-                                        <small>Familiar:</small>
+                                        <small>Familiar</small>
                                     </p>
                                     <p className="p-0 m-0">
                                         NodeJS, ExpressJS, MongoDB, CRUD
