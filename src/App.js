@@ -5,6 +5,7 @@ import HeaderNav from "./Components/HeaderNav";
 import Home from "./Components/Home";
 import { Route, Routes } from "react-router-dom";
 import AllWork from "./Components/AllWork";
+import SamiIndustry from "./Components/Projects/SamiIndustry";
 
 function App() {
     return (
@@ -12,6 +13,10 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
                 <Route path="/works" element={<AllWork></AllWork>}></Route>
+                <Route
+                    path="/works/sami-industry"
+                    element={<SamiIndustry></SamiIndustry>}
+                ></Route>
                 <Route path="/contact" element={<Contact></Contact>}></Route>
             </Routes>
         </div>

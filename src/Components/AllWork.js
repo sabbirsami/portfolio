@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import HeaderNav from "./HeaderNav";
+import { CgArrowLongRight } from "react-icons/cg";
 import project1 from "./img/project1.jpg";
 import project2 from "./img/project2.jpg";
 import project3 from "./img/project3.jpg";
@@ -12,7 +13,10 @@ const AllWork = () => {
                 <div className="row justify-content-between align-items-center">
                     <div className="col-lg-7 pb-4">
                         <h1>My Latest Works</h1>
-                        <p>To see project details click on the image</p>
+                        <p>
+                            To see project details click on the{" "}
+                            <span className="text-success">Details</span> button
+                        </p>
                     </div>
                 </div>
                 <div className="row">
@@ -24,6 +28,14 @@ const AllWork = () => {
                                 alt=""
                             />
                         </div>
+                        <p>
+                            <Link
+                                to="/works"
+                                className="text-success p-0 nav-link"
+                            >
+                                Details <CgArrowLongRight></CgArrowLongRight>
+                            </Link>
+                        </p>
                     </div>
                     <div className="col-lg-4">
                         <div className="py-3">
@@ -33,6 +45,14 @@ const AllWork = () => {
                                 alt=""
                             />
                         </div>
+                        <p>
+                            <Link
+                                to="/works"
+                                className="text-success p-0 nav-link"
+                            >
+                                Details <CgArrowLongRight></CgArrowLongRight>
+                            </Link>
+                        </p>
                     </div>
                     <div className="col-lg-4">
                         <div className="py-3">
@@ -42,6 +62,14 @@ const AllWork = () => {
                                 alt=""
                             />
                         </div>
+                        <p>
+                            <Link
+                                to="/works"
+                                className="text-success p-0 nav-link"
+                            >
+                                Details <CgArrowLongRight></CgArrowLongRight>
+                            </Link>
+                        </p>
                     </div>
                 </div>
             </div>

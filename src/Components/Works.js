@@ -35,7 +35,7 @@ const Works = () => {
                         </div>
                         <p>
                             <Link
-                                to="/works"
+                                to="/works/sami-industry"
                                 className="text-success p-0 nav-link"
                             >
                                 Details <CgArrowLongRight></CgArrowLongRight>

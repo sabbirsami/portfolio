@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
     return (
         <div>
+            <hr />
             <div className="container">
-                <hr />
                 <div className="row justify-content-between py-5">
                     <div className="col-lg-6">
                         <p>Sabbir Mohammad Sami</p>
