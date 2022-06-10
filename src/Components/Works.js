@@ -52,7 +52,7 @@ const Works = () => {
                         </div>
                         <p>
                             <Link
-                                to="/works"
+                                to="/works/farmi-organic"
                                 className="text-success p-0 nav-link"
                             >
                                 Details <CgArrowLongRight></CgArrowLongRight>
@@ -69,7 +69,7 @@ const Works = () => {
                         </div>
                         <p>
                             <Link
-                                to="/works"
+                                to="/works/to-do-notes"
                                 className="text-success p-0 nav-link"
                             >
                                 Details <CgArrowLongRight></CgArrowLongRight>
