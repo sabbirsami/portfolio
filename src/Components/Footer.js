@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
     return (
         <div>
-            <hr />
+            <hr className="m-0" />
             <div className="container">
                 <div className="row justify-content-between py-5">
                     <div className="col-lg-6">
