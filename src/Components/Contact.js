@@ -9,56 +9,30 @@ import { Button, Form, Nav } from "react-bootstrap";
 
 const Contact = () => {
     return (
-        <div className="bg-yellow" style={{ height: "100vh" }}>
+        <div style={{ height: "100vh", backgroundColor: "#F8F7F1" }}>
             <HeaderNav></HeaderNav>
-            <div className="container">
-                <div className="py-5">
-                    <div className="pb-5">
-                        <h1 className="text-center fw-bold">Get in touch!</h1>
-                    </div>
-                    <div className="row ">
-                        <div className="col-lg-4 pt-5">
-                            <div className=" mb-2">
-                                <div className=" d-flex pe-3 text-center">
-                                    <p className="pe-3">
-                                        <HiLocationMarker className="fs-3"></HiLocationMarker>
-                                    </p>
-                                    <p>Dhaka, Bangladesh</p>
-                                </div>
+            <div
+                className="d-flex align-items-center"
+                style={{ height: "94vh", backgroundColor: "#F8F7F1" }}
+            >
+                <div className="container d-flex justify-content-center py-5">
+                    <div className="row">
+                        {/* d-flex flex-column */}
+                        <div className="col-lg-7">
+                            <h1>
+                                Let's talk & make something amazing together.
+                            </h1>
+                            <div className="pt-lg-5 pb-4 mt-auto">
+                                <h1>
+                                    Start by{" "}
+                                    <span className="text-danger text-decoration-underline">
+                                        saying hi
+                                    </span>
+                                </h1>
                             </div>
-                            <div className=" mb-2">
-                                <div className=" d-flex pe-3 text-center">
-                                    <p className="pe-3">
-                                        <IoMail className="fs-3"></IoMail>
-                                    </p>
-                                    <p>sabbir.mohammad.sami@gmail.com</p>
-                                </div>
-                            </div>
-                            <div className=" mb-2">
-                                <div className=" d-flex pe-3 text-center">
-                                    <p className="pe-3">
-                                        <AiFillPhone className="fs-3"></AiFillPhone>
-                                    </p>
-                                    <p>+880 19 7070 6676 </p>
-                                </div>
-                            </div>
-                            <a
-                                target="_blank"
-                                className="text-dark fs-2 me-3"
-                                href="https://github.com/sabbirsami"
-                            >
-                                <FaGithub></FaGithub>
-                            </a>
-                            <a
-                                className="text-dark fs-2 me-3"
-                                target="_blank"
-                                href="https://www.linkedin.com/in/sabbir-mohammad-sami"
-                            >
-                                <GrLinkedinOption></GrLinkedinOption>
-                            </a>
                         </div>
-                        <div className="col-lg-8">
-                            <div className="pt-5 pb-4 px-3">
+                        <div className="col-lg-5">
+                            <div className="pb-4 px-3">
                                 <Form>
                                     <Form.Group
                                         className="mb-3"
