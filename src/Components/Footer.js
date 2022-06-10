@@ -7,10 +7,12 @@ const Footer = () => {
             <div className="container">
                 <div className="row justify-content-between py-5">
                     <div className="col-lg-6">
-                        <p>Sabbir Mohammad Sami</p>
+                        <p className="d-none d-lg-block">
+                            Sabbir Mohammad Sami
+                        </p>
                     </div>
-                    <div className="col-lg-6 text-lg-end">
-                        <p>&copy; 2022 All Rights Reserved</p>
+                    <div className="col-lg-6 text-lg-end text-center">
+                        <p className="">&copy; 2022 All Rights Reserved</p>
                     </div>
                 </div>
             </div>

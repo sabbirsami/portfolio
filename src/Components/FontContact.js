@@ -7,7 +7,7 @@ const FontContact = () => {
             <div className="container py-5">
                 <div className="row">
                     {/* d-flex flex-column */}
-                    <div className="col-lg-7 p-lg-0 px-4">
+                    <div className="col-lg-7">
                         <h1>Let's talk & make something amazing together.</h1>
                         <div className="pt-lg-5 pb-4 mt-auto">
                             <h1>
