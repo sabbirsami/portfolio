@@ -18,7 +18,7 @@ const HeaderNav = () => {
                         <CustomLink to="/">
                             <GoHome className="mb-1"></GoHome>
                         </CustomLink>
-                        <CustomLink to="/works">WORK</CustomLink>
+                        <CustomLink to="/works">WORKS</CustomLink>
                         <CustomLink to="/contact">CONTACT</CustomLink>
                     </Nav>
                     <Nav>
