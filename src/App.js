@@ -8,6 +8,7 @@ import SamiIndustry from "./Components/Projects/SamiIndustry";
 import FarmiOrganic from "./Components/Projects/FarmiOrganic";
 import ToDoNotes from "./Components/Projects/ToDoNotes";
 import GoldenConventionCenter from "./Components/Projects/GoldenConventionCenter";
+import InfluencerProducts from "./Components/Projects/InfluencerProducts";
 
 function App() {
     return (
@@ -30,6 +31,10 @@ function App() {
                 <Route
                     path="/works/golden-convention-center"
                     element={<GoldenConventionCenter></GoldenConventionCenter>}
+                ></Route>
+                <Route
+                    path="/works/influencer-products"
+                    element={<InfluencerProducts></InfluencerProducts>}
                 ></Route>
                 <Route path="/contact" element={<Contact></Contact>}></Route>
             </Routes>
