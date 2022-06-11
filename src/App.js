@@ -9,6 +9,7 @@ import FarmiOrganic from "./Components/Projects/FarmiOrganic";
 import ToDoNotes from "./Components/Projects/ToDoNotes";
 import GoldenConventionCenter from "./Components/Projects/GoldenConventionCenter";
 import InfluencerProducts from "./Components/Projects/InfluencerProducts";
+import SsPhotography from "./Components/Projects/SsPhotography";
 
 function App() {
     return (
@@ -35,6 +36,10 @@ function App() {
                 <Route
                     path="/works/influencer-products"
                     element={<InfluencerProducts></InfluencerProducts>}
+                ></Route>
+                <Route
+                    path="/works/ss-photography"
+                    element={<SsPhotography></SsPhotography>}
                 ></Route>
                 <Route path="/contact" element={<Contact></Contact>}></Route>
             </Routes>

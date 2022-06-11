@@ -67,7 +67,7 @@ const AllWork = () => {
                         </div>
                         <p>
                             <Link
-                                to="/works/farmi-organic"
+                                to="/works/ss-photography"
                                 className="text-success p-0 nav-link"
                             >
                                 Details <CgArrowLongRight></CgArrowLongRight>
