@@ -7,6 +7,7 @@ import AllWork from "./Components/AllWork";
 import SamiIndustry from "./Components/Projects/SamiIndustry";
 import FarmiOrganic from "./Components/Projects/FarmiOrganic";
 import ToDoNotes from "./Components/Projects/ToDoNotes";
+import GoldenConventionCenter from "./Components/Projects/GoldenConventionCenter";
 
 function App() {
     return (
@@ -25,6 +26,10 @@ function App() {
                 <Route
                     path="/works/to-do-notes"
                     element={<ToDoNotes></ToDoNotes>}
+                ></Route>
+                <Route
+                    path="/works/golden-convention-center"
+                    element={<GoldenConventionCenter></GoldenConventionCenter>}
                 ></Route>
                 <Route path="/contact" element={<Contact></Contact>}></Route>
             </Routes>
