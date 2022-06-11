@@ -5,6 +5,8 @@ import { CgArrowLongRight } from "react-icons/cg";
 import project1 from "./img/project1.jpg";
 import project2 from "./img/project2.jpg";
 import project3 from "./img/project3.jpg";
+import project4 from "./img/project4.jpg";
+import project5 from "./img/project5.jpg";
 const AllWork = () => {
     return (
         <div>
@@ -65,6 +67,41 @@ const AllWork = () => {
                         <p>
                             <Link
                                 to="/works/to-do-notes"
+                                className="text-success p-0 nav-link"
+                            >
+                                Details <CgArrowLongRight></CgArrowLongRight>
+                            </Link>
+                        </p>
+                    </div>
+                    <div className="col-lg-4">
+                        <div className="py-3">
+                            <img
+                                className="w-100 rounded-3"
+                                src={project4}
+                                alt=""
+                            />
+                        </div>
+                        <p>
+                            <Link
+                                to="/works/golden-convention-center
+                                "
+                                className="text-success p-0 nav-link"
+                            >
+                                Details <CgArrowLongRight></CgArrowLongRight>
+                            </Link>
+                        </p>
+                    </div>
+                    <div className="col-lg-4">
+                        <div className="py-3">
+                            <img
+                                className="w-100 rounded-3"
+                                src={project5}
+                                alt=""
+                            />
+                        </div>
+                        <p>
+                            <Link
+                                to="/works/influencer-products"
                                 className="text-success p-0 nav-link"
                             >
                                 Details <CgArrowLongRight></CgArrowLongRight>
