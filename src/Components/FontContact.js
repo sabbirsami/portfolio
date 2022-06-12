@@ -1,7 +1,29 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { Button, Form } from "react-bootstrap";
 
 const FontContact = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(
+                "sabbir-mohammad-sami",
+                "template_rgdvwbm",
+                form.current,
+                "qdhDVcg6u8gZ0Y4y5"
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                },
+                (error) => {
+                    console.log(error.text);
+                }
+            );
+        e.target.reset();
+    };
     return (
         <div style={{ backgroundColor: "#F8F7F1" }}>
             <div className="container py-5">
@@ -20,12 +42,13 @@ const FontContact = () => {
                     </div>
                     <div className="col-lg-5">
                         <div className="pb-4 px-3">
-                            <Form>
+                            <Form ref={form} onSubmit={sendEmail}>
                                 <Form.Group
                                     className="mb-3"
                                     controlId="exampleForm.ControlInput1"
                                 >
                                     <Form.Control
+                                        name="email"
                                         type="email"
                                         className="rounded-1 border-0 py-3"
                                         placeholder="Your email address"
@@ -36,6 +59,7 @@ const FontContact = () => {
                                     controlId="exampleForm.ControlInput1"
                                 >
                                     <Form.Control
+                                        name="company_name"
                                         type="text"
                                         className="rounded-1 border-0 py-3"
                                         placeholder="Your name / company’s name"
@@ -46,6 +70,7 @@ const FontContact = () => {
                                     controlId="exampleForm.ControlTextarea1"
                                 >
                                     <Form.Control
+                                        name="message"
                                         as="textarea"
                                         rows={6}
                                         className="rounded-1 border-0 py-3"
