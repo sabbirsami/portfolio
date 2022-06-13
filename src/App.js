@@ -11,6 +11,7 @@ import GoldenConventionCenter from "./Components/Projects/GoldenConventionCenter
 import InfluencerProducts from "./Components/Projects/InfluencerProducts";
 import SsPhotography from "./Components/Projects/SsPhotography";
 import AboutSection from "./Components/AboutSection";
+import Blogs from "./Components/Blogs";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                     path="/about"
                     element={<AboutSection></AboutSection>}
                 ></Route>
+                <Route path="/blogs" element={<Blogs></Blogs>}></Route>
                 <Route
                     path="/works/sami-industry"
                     element={<SamiIndustry></SamiIndustry>}
