@@ -1,8 +1,10 @@
 import React from "react";
+import HeaderNav from "./HeaderNav";
 
 const AboutSection = () => {
     return (
         <div>
+            <HeaderNav></HeaderNav>
             <div className="container">
                 <div className="py-lg-5 p-0">
                     {/* <h1 className="text-center">About Me</h1> */}
