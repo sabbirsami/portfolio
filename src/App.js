@@ -10,6 +10,7 @@ import ToDoNotes from "./Components/Projects/ToDoNotes";
 import GoldenConventionCenter from "./Components/Projects/GoldenConventionCenter";
 import InfluencerProducts from "./Components/Projects/InfluencerProducts";
 import SsPhotography from "./Components/Projects/SsPhotography";
+import AboutSection from "./Components/AboutSection";
 
 function App() {
     return (
@@ -17,6 +18,10 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
                 <Route path="/works" element={<AllWork></AllWork>}></Route>
+                <Route
+                    path="/about"
+                    element={<AboutSection></AboutSection>}
+                ></Route>
                 <Route
                     path="/works/sami-industry"
                     element={<SamiIndustry></SamiIndustry>}
