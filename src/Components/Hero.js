@@ -1,10 +1,18 @@
 import React from "react";
 import profile from "./IMG-2413.png";
+import "./Hero.css";
 
 const Hero = () => {
     return (
         <div>
-            <div className="container">
+            <div
+                className="bg-image"
+                // style={{
+                //     backgroundImage: `url("https://via.placeholder.com/500")`,
+                //     height: "100vh",
+                // }}
+            ></div>
+            <div className="container bg-text">
                 <div className="pt-5 pb-4 text-center hero-heading">
                     <h1 className="">Sabbir Mohammad Sami</h1>
                     <h1>Junior Full Stack Web Developer</h1>

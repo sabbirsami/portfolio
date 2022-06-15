@@ -15,7 +15,7 @@ import Blogs from "./Components/Blogs";
 
 function App() {
     return (
-        <div>
+        <div className="">
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
                 <Route path="/works" element={<AllWork></AllWork>}></Route>
