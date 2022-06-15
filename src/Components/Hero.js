@@ -1,6 +1,6 @@
 import React from "react";
 import profile from "./IMG-2413.png";
-import "./Hero.css";
+// import "./Hero.css";
 
 const Hero = () => {
     return (
@@ -13,7 +13,7 @@ const Hero = () => {
                 // }}
             ></div>
             <div className="container bg-text">
-                <div className="pt-5 pb-4 text-center hero-heading">
+                <div className="pt-3 pt-lg-5 pb-4 text-center hero-heading">
                     <h1 className="">Sabbir Mohammad Sami</h1>
                     <h1>Junior Full Stack Web Developer</h1>
                     <a
