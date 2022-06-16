@@ -3,6 +3,7 @@ import React from "react";
 const About = () => {
     return (
         <div>
+            <div className="about-divider"></div>
             <div className="container">
                 <div className="pb-lg-5 pb-3 pt-lg-3 p-0">
                     {/* <h1 className="text-center">About Me</h1> */}
