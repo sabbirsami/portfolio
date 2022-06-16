@@ -4,7 +4,7 @@ import profile from "./IMG-2413.png";
 
 const Hero = () => {
     return (
-        <div>
+        <div className="background">
             <div
                 className="bg-image"
                 // style={{
@@ -12,7 +12,7 @@ const Hero = () => {
                 //     height: "100vh",
                 // }}
             ></div>
-            <div className="container bg-text">
+            <div className="container  bg-text">
                 <div className="pt-3 pt-lg-5 pb-4 text-center hero-heading">
                     <h1 className="">Sabbir Mohammad Sami</h1>
                     <h1>Junior Full Stack Web Developer</h1>

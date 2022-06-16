@@ -25,3 +25,12 @@ body {
 .highlight-yellow {
     background-image: linear-gradient(180deg, #ffffff 65%, #eb4d4b 40%);
 }
+.rotate {
+    transform: rotate(-90deg);
+}
+/* .background {
+    background-image: url("./Components/img/header-bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */

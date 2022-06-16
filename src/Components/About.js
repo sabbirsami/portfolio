@@ -33,7 +33,12 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-6 text-lg-end">
+                        {/* <div className="col-lg-3 my-auto">
+                            <h5 className="fw-bold text-center rotate">
+                                - About & Education -
+                            </h5>
+                        </div> */}
+                        <div className="col-lg-4 text-lg-end">
                             <div className="py-lg-5 p-lg-0 p-2">
                                 <div className="mb-3">
                                     <h5 className="fw-light text-muted">
