@@ -1,6 +1,7 @@
 .bg-image {
     /* The image used */
     background-image: url("./img/bg.png");
+    opacity: 0.8;
 
     /* Add the blur effect */
     filter: blur(8px);

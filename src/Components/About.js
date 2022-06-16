@@ -4,14 +4,16 @@ const About = () => {
     return (
         <div>
             <div className="container">
-                <div className="py-lg-5 p-0">
+                <div className="pb-lg-5 pb-3 pt-lg-3 p-0">
                     {/* <h1 className="text-center">About Me</h1> */}
                     <div className="row justify-content-between">
                         <div className="col-lg-5">
                             <div className="py-lg-5 p-lg-0 p-2">
                                 <div className="mb-3">
                                     <h5 className="fw-light text-muted">
-                                        ABOUT ME
+                                        <span className="highlight-green">
+                                            ABOUT ME
+                                        </span>
                                     </h5>
                                 </div>
                                 <p>
@@ -35,7 +37,9 @@ const About = () => {
                             <div className="py-lg-5 p-lg-0 p-2">
                                 <div className="mb-3">
                                     <h5 className="fw-light text-muted">
-                                        EDUCATION
+                                        <span className="highlight-yellow">
+                                            EDUCATION
+                                        </span>
                                     </h5>
                                 </div>
                                 <h5 className="fw-bold">

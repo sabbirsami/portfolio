@@ -11,7 +11,11 @@ const Works = () => {
             <div className="container py-5">
                 <div className="row justify-content-between align-items-center">
                     <div className="col-lg-7">
-                        <h1>My Latest Works</h1>
+                        <h1>
+                            <span className="highlight-green">
+                                My Latest Works
+                            </span>
+                        </h1>
                         <p>
                             To see project details click on the details button
                         </p>

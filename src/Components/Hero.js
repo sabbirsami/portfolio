@@ -31,7 +31,7 @@ const Hero = () => {
                         <div className="py-lg-5">
                             <div className="py-lg-4 py-2">
                                 <p className="pb-lg-4 text-muted">
-                                    <small>BIOGRAPHY</small>
+                                    <small className="">BIOGRAPHY</small>
                                 </p>
                                 <p className="p-0 m-0">
                                     Work for money and design for love!
@@ -69,7 +69,7 @@ const Hero = () => {
                             <div className="py-lg-5">
                                 <div className="py-lg-4 py-2">
                                     <p className="pb-lg-4 text-muted">
-                                        <small>Expertise</small>
+                                        <small className="">Expertise</small>
                                     </p>
                                     <p className="p-0 m-0">
                                         HTML, CSS, ReactJS, JavaScript - ES6,
