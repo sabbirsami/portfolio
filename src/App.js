@@ -8,7 +8,7 @@ import SamiIndustry from "./Components/Projects/SamiIndustry";
 import FarmiOrganic from "./Components/Projects/FarmiOrganic";
 import ToDoNotes from "./Components/Projects/ToDoNotes";
 import GoldenConventionCenter from "./Components/Projects/GoldenConventionCenter";
-import InfluencerProducts from "./Components/Projects/InfluencerProducts";
+import TripoGame from "./Components/Projects/TripoGame";
 import SsPhotography from "./Components/Projects/SsPhotography";
 import AboutSection from "./Components/AboutSection";
 import Blogs from "./Components/Blogs";
@@ -42,7 +42,7 @@ function App() {
                 ></Route>
                 <Route
                     path="/works/influencer-products"
-                    element={<InfluencerProducts></InfluencerProducts>}
+                    element={<TripoGame></TripoGame>}
                 ></Route>
                 <Route
                     path="/works/ss-photography"

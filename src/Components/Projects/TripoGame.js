@@ -2,7 +2,7 @@ import React from "react";
 import HeaderNav from "../HeaderNav";
 import project5 from "../img/project5.jpg";
 
-const InfluencerProducts = () => {
+const TripoGame = () => {
     return (
         <div>
             <HeaderNav></HeaderNav>
@@ -86,4 +86,4 @@ const InfluencerProducts = () => {
     );
 };
 
-export default InfluencerProducts;
+export default TripoGame;
