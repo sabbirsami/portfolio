@@ -34,8 +34,8 @@ const InfluencerProducts = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="py-3 px-2">
-                                <h5 className="fw-bold">Influencer Products</h5>
-                                <p>This website is not fully done.</p>
+                                <h5 className="fw-bold">Tripo Game Website</h5>
+                                <p>This is Gamming website.</p>
                                 {/* <h6>Overview:</h6>
                                 <p>
                                     <ul>
@@ -59,7 +59,7 @@ const InfluencerProducts = () => {
                                 <button className="btn btn-white ">
                                     <a
                                         className="text-success text-decoration-none"
-                                        href="https://sabbirsami.github.io/assignment02/index.html"
+                                        href="https://tripo-game.web.app/"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
@@ -70,7 +70,7 @@ const InfluencerProducts = () => {
                                 <button className="btn btn-white text-success">
                                     <a
                                         className="text-success text-decoration-none"
-                                        href="https://github.com/sabbirsami/assignment02"
+                                        href="https://github.com/sabbirsami/tripo-game-site"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
