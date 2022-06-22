@@ -29,6 +29,10 @@ function App() {
                     element={<SamiIndustry></SamiIndustry>}
                 ></Route>
                 <Route
+                    path="/works/teeth-health"
+                    element={<SamiIndustry></SamiIndustry>}
+                ></Route>
+                <Route
                     path="/works/farmi-organic"
                     element={<FarmiOrganic></FarmiOrganic>}
                 ></Route>
