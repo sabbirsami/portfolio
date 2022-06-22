@@ -12,6 +12,9 @@ body {
     background-color: #404040;
     border-radius: 100px;
 }
+.menu_button:focus {
+    outline: none !important;
+}
 .bg-yellow {
     background-color: #fbd062;
 }

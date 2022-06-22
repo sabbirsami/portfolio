@@ -109,6 +109,24 @@ const AllWork = () => {
                             </Link>
                         </p>
                     </div>
+
+                    <div className="col-lg-4">
+                        <div className="py-3">
+                            <img
+                                className="w-100 rounded-3"
+                                src={project5}
+                                alt=""
+                            />
+                        </div>
+                        <p>
+                            <Link
+                                to="/works/influencer-products"
+                                className="text-success p-0 nav-link"
+                            >
+                                Details <CgArrowLongRight></CgArrowLongRight>
+                            </Link>
+                        </p>
+                    </div>
                     <div className="col-lg-4">
                         <div className="py-3">
                             <img
@@ -121,23 +139,6 @@ const AllWork = () => {
                             <Link
                                 to="/works/golden-convention-center
                                 "
-                                className="text-success p-0 nav-link"
-                            >
-                                Details <CgArrowLongRight></CgArrowLongRight>
-                            </Link>
-                        </p>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="py-3">
-                            <img
-                                className="w-100 rounded-3"
-                                src={project5}
-                                alt=""
-                            />
-                        </div>
-                        <p>
-                            <Link
-                                to="/works/influencer-products"
                                 className="text-success p-0 nav-link"
                             >
                                 Details <CgArrowLongRight></CgArrowLongRight>
