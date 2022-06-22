@@ -43,7 +43,7 @@ const About = () => {
                             <div className="py-lg-5 p-lg-0 p-2">
                                 <div className="mb-3">
                                     <h5 className="fw-light text-muted">
-                                        <span className="highlight-yellow">
+                                        <span className="highlight-green">
                                             EDUCATION
                                         </span>
                                     </h5>
