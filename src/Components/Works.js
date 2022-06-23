@@ -3,7 +3,7 @@ import { CgArrowLongRight } from "react-icons/cg";
 import { Link } from "react-router-dom";
 import project1 from "./img/project1.jpg";
 import project2 from "./img/project2.jpg";
-import project3 from "./img/project3.jpg";
+import project7 from "../img/project7.jpg";
 
 const Works = () => {
     return (
@@ -46,6 +46,24 @@ const Works = () => {
                             </Link>
                         </p>
                     </div>
+
+                    <div className="col-lg-4">
+                        <div className="py-3">
+                            <img
+                                className="w-100 rounded-3"
+                                src={project7}
+                                alt=""
+                            />
+                        </div>
+                        <p>
+                            <Link
+                                to="/works/teeth-health"
+                                className="text-success p-0 nav-link"
+                            >
+                                Details <CgArrowLongRight></CgArrowLongRight>
+                            </Link>
+                        </p>
+                    </div>
                     <div className="col-lg-4">
                         <div className="py-3">
                             <img
@@ -57,23 +75,6 @@ const Works = () => {
                         <p>
                             <Link
                                 to="/works/farmi-organic"
-                                className="text-success p-0 nav-link"
-                            >
-                                Details <CgArrowLongRight></CgArrowLongRight>
-                            </Link>
-                        </p>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="py-3">
-                            <img
-                                className="w-100 rounded-3"
-                                src={project3}
-                                alt=""
-                            />
-                        </div>
-                        <p>
-                            <Link
-                                to="/works/to-do-notes"
                                 className="text-success p-0 nav-link"
                             >
                                 Details <CgArrowLongRight></CgArrowLongRight>

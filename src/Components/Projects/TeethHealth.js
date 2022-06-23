@@ -82,8 +82,8 @@ const TeethHealth = () => {
                                             system via Google Firebase.
                                         </li>
                                         <li className="pb-2">
-                                            On this website users can order
-                                            products and pay for their
+                                            On this website users can user can
+                                            book appointment and pay for their
                                             appointment Users can also be able
                                             to give review.
                                         </li>

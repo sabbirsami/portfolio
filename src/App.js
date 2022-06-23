@@ -10,6 +10,7 @@ import ToDoNotes from "./Components/Projects/ToDoNotes";
 import GoldenConventionCenter from "./Components/Projects/GoldenConventionCenter";
 import TripoGame from "./Components/Projects/TripoGame";
 import SsPhotography from "./Components/Projects/SsPhotography";
+import TeethHealth from "./Components/Projects/TeethHealth";
 import AboutSection from "./Components/AboutSection";
 import Blogs from "./Components/Blogs";
 
@@ -30,7 +31,7 @@ function App() {
                 ></Route>
                 <Route
                     path="/works/teeth-health"
-                    element={<SamiIndustry></SamiIndustry>}
+                    element={<TeethHealth></TeethHealth>}
                 ></Route>
                 <Route
                     path="/works/farmi-organic"
