@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./IMG-2413.png";
+import profile from "./hero-img.png";
 // import "./Hero.css";
 
 const Hero = () => {
