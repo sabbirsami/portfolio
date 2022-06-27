@@ -22,9 +22,10 @@ body {
     font-family: "Nuosu SIL", serif;
 }
 
-.highlight-green {
+/* .highlight-green {
+    
     background-image: linear-gradient(180deg, #ffffff 65%, #00b894 40%);
-}
+} */
 .highlight-yellow {
     background-image: linear-gradient(180deg, #ffffff 65%, #eb4d4b 40%);
 }

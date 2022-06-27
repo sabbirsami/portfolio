@@ -12,10 +12,9 @@ const Works = () => {
                 <div className="row justify-content-between align-items-center">
                     <div className="col-lg-7">
                         <h1>
-                            <span className="highlight-green">
-                                My Latest Works
-                            </span>
+                            <span>My Latest Works</span>
                         </h1>
+                        <span className="highlight-green"></span>
                         <p>
                             To see project details click on the details button
                         </p>
