@@ -1,5 +1,5 @@
 import React from "react";
-import { CgArrowLongRight } from "react-icons/cg";
+import { TiArrowRight } from "react-icons/ti";
 import { Link } from "react-router-dom";
 import project1 from "./img/project1.jpg";
 import project2 from "./img/project2.jpg";
@@ -28,57 +28,63 @@ const Works = () => {
                     </div>
                 </div>
                 <div className="row pb-3">
-                    <div className="col-lg-4">
-                        <div className="py-3">
-                            <img
-                                className="w-100 rounded-3"
-                                src={project1}
-                                alt=""
-                            />
+                    <div className="col-lg-4 pt-3">
+                        <div className="p-2 bg-project1 rounded-3">
+                            <div className="">
+                                <img
+                                    className="w-100 rounded-3"
+                                    src={project1}
+                                    alt=""
+                                />
+                            </div>
+                            <p className="pt-3">
+                                <Link
+                                    to="/works/sami-industry"
+                                    className="text-success p-0 nav-link"
+                                >
+                                    Details <TiArrowRight></TiArrowRight>
+                                </Link>
+                            </p>
                         </div>
-                        <p>
-                            <Link
-                                to="/works/sami-industry"
-                                className="text-success p-0 nav-link"
-                            >
-                                Details <CgArrowLongRight></CgArrowLongRight>
-                            </Link>
-                        </p>
                     </div>
 
-                    <div className="col-lg-4">
-                        <div className="py-3">
-                            <img
-                                className="w-100 rounded-3"
-                                src={project7}
-                                alt=""
-                            />
+                    <div className="col-lg-4 pt-3">
+                        <div className="p-2 bg-project2 rounded-3">
+                            <div className="">
+                                <img
+                                    className="w-100 rounded-3"
+                                    src={project7}
+                                    alt=""
+                                />
+                            </div>
+                            <p className="pt-3">
+                                <Link
+                                    to="/works/teeth-health"
+                                    className="text-success p-0 nav-link"
+                                >
+                                    Details <TiArrowRight></TiArrowRight>
+                                </Link>
+                            </p>
                         </div>
-                        <p>
-                            <Link
-                                to="/works/teeth-health"
-                                className="text-success p-0 nav-link"
-                            >
-                                Details <CgArrowLongRight></CgArrowLongRight>
-                            </Link>
-                        </p>
                     </div>
-                    <div className="col-lg-4">
-                        <div className="py-3">
-                            <img
-                                className="w-100 rounded-3"
-                                src={project2}
-                                alt=""
-                            />
+                    <div className="col-lg-4 pt-3 ">
+                        <div className="p-2 bg-project3 rounded-3">
+                            <div className="">
+                                <img
+                                    className="w-100 rounded-3"
+                                    src={project2}
+                                    alt=""
+                                />
+                            </div>
+                            <p className="pt-3">
+                                <Link
+                                    to="/works/farmi-organic"
+                                    className="text-success p-0 nav-link"
+                                >
+                                    Details <TiArrowRight></TiArrowRight>
+                                </Link>
+                            </p>
                         </div>
-                        <p>
-                            <Link
-                                to="/works/farmi-organic"
-                                className="text-success p-0 nav-link"
-                            >
-                                Details <CgArrowLongRight></CgArrowLongRight>
-                            </Link>
-                        </p>
                     </div>
                 </div>
             </div>

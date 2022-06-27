@@ -18,6 +18,15 @@ body {
 .bg-yellow {
     background-color: #fbd062;
 }
+.bg-project1 {
+    background-color: #38766b30;
+}
+.bg-project2 {
+    background-color: #4db7cd30;
+}
+.bg-project3 {
+    background-color: #e1b73f30;
+}
 .hero-heading {
     font-family: "Nuosu SIL", serif;
 }
