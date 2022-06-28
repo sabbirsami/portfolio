@@ -13,7 +13,7 @@ const Hero = () => {
                 // }}
             ></div>
             <div className="container  bg-text">
-                <div className="pt-3 pt-lg-5 pb-4 text-center hero-heading">
+                <div className="pt-3 pt-lg-5 pb-lg-4 pb-0 text-center hero-heading">
                     <h1 className="">Sabbir Mohammad Sami</h1>
                     <h1>Junior Full Stack Web Developer</h1>
                     <a
@@ -31,7 +31,9 @@ const Hero = () => {
                         <div className="py-lg-5">
                             <div className="py-lg-4 py-2">
                                 <p className="pb-lg-4 text-muted">
-                                    <small className="">BIOGRAPHY</small>
+                                    <small className="highlight">
+                                        BIOGRAPHY
+                                    </small>
                                 </p>
                                 <p className="p-0 m-0">
                                     Work for money and design for love!
@@ -40,7 +42,9 @@ const Hero = () => {
                             </div>
                             <div className="py-lg-4">
                                 <p className="pb-lg-4 text-muted">
-                                    <small>CONTACT</small>
+                                    <small className="highlight-2">
+                                        CONTACT
+                                    </small>
                                 </p>
                                 <p className="p-0 m-0">Dhaka, Bangladesh</p>
                                 <p className="p-0 m-0">
@@ -50,7 +54,9 @@ const Hero = () => {
                             </div>
                             <div className="py-lg-4 py-2">
                                 <p className="pb-lg-4 text-muted">
-                                    <small>SERVICES</small>
+                                    <small className="highlight-3">
+                                        SERVICES
+                                    </small>
                                 </p>
                                 <p className="p-0 m-0">
                                     Web Development, UI/UX
@@ -69,7 +75,9 @@ const Hero = () => {
                             <div className="py-lg-5">
                                 <div className="py-lg-4 py-2">
                                     <p className="pb-lg-4 text-muted">
-                                        <small className="">Expertise</small>
+                                        <small className="highlight-3">
+                                            Expertise
+                                        </small>
                                     </p>
                                     <p className="p-0 m-0">
                                         HTML, CSS, ReactJS, JavaScript - ES6,
@@ -81,7 +89,9 @@ const Hero = () => {
                                 </div>
                                 <div className="py-lg-4">
                                     <p className="pb-lg-4 text-muted">
-                                        <small>Comfortable</small>
+                                        <small className="highlight-2">
+                                            Comfortable
+                                        </small>
                                     </p>
                                     <p className="p-0 m-0">
                                         React hooq form, React Toastify,
@@ -93,7 +103,9 @@ const Hero = () => {
                                 </div>
                                 <div className="py-lg-4 py-2 ">
                                     <p className="pb-lg-4 text-muted">
-                                        <small>Familiar</small>
+                                        <small className="highlight">
+                                            Familiar
+                                        </small>
                                     </p>
                                     <p className="p-0 m-0">
                                         NodeJS, ExpressJS, MongoDB, CRUD

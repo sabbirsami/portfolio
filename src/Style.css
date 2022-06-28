@@ -15,6 +15,22 @@ body {
 .menu_button:focus {
     outline: none !important;
 }
+.highlight {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #0ea5e9;
+}
+.highlight-2 {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #6366f1;
+}
+.highlight-3 {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #ec4899;
+}
+
 .bg-yellow {
     background-color: #fbd062;
 }
