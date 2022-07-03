@@ -28,7 +28,7 @@ const Works = () => {
                     </div>
                 </div>
                 <div className="row pb-3">
-                    <div className="col-lg-4 pt-3">
+                    <div className="col-lg-3 pt-3">
                         <div className="p-2 bg-project1 rounded-3">
                             <div className="">
                                 <img
@@ -48,7 +48,7 @@ const Works = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-4 pt-3">
+                    <div className="col-lg-3 pt-3">
                         <div className="p-2 bg-project2 rounded-3">
                             <div className="">
                                 <img
@@ -67,7 +67,26 @@ const Works = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-lg-4 pt-3 ">
+                    <div className="col-lg-3 pt-3 ">
+                        <div className="p-2 bg-project3 rounded-3">
+                            <div className="">
+                                <img
+                                    className="w-100 rounded-3"
+                                    src={project2}
+                                    alt=""
+                                />
+                            </div>
+                            <p className="pt-3">
+                                <Link
+                                    to="/works/farmi-organic"
+                                    className="text-success p-0 nav-link"
+                                >
+                                    Details <TiArrowRight></TiArrowRight>
+                                </Link>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 pt-3 ">
                         <div className="p-2 bg-project3 rounded-3">
                             <div className="">
                                 <img
