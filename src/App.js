@@ -13,6 +13,7 @@ import SsPhotography from "./Components/Projects/SsPhotography";
 import TeethHealth from "./Components/Projects/TeethHealth";
 import AboutSection from "./Components/AboutSection";
 import Blogs from "./Components/Blogs";
+import CreativeAgency from "./Components/Projects/CreativeAgency";
 
 function App() {
     return (
@@ -32,6 +33,10 @@ function App() {
                 <Route
                     path="/works/teeth-health"
                     element={<TeethHealth></TeethHealth>}
+                ></Route>
+                <Route
+                    path="/works/creative-agency"
+                    element={<CreativeAgency />}
                 ></Route>
                 <Route
                     path="/works/farmi-organic"

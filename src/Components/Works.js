@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import project1 from "./img/project1.jpg";
 import project2 from "./img/project2.jpg";
 import project7 from "./img/project7.jpg";
+import project8 from "./img/project8.jpg";
 
 const Works = () => {
     return (
@@ -29,7 +30,7 @@ const Works = () => {
                 </div>
                 <div className="row pb-3">
                     <div className="col-lg-3 pt-3">
-                        <div className="p-2 bg-project1 rounded-3">
+                        <div className="p-2 shadow-sm rounded-3">
                             <div className="">
                                 <img
                                     className="w-100 rounded-3"
@@ -49,7 +50,7 @@ const Works = () => {
                     </div>
 
                     <div className="col-lg-3 pt-3">
-                        <div className="p-2 bg-project2 rounded-3">
+                        <div className="p-2 shadow-sm rounded-3">
                             <div className="">
                                 <img
                                     className="w-100 rounded-3"
@@ -68,17 +69,18 @@ const Works = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 pt-3 ">
-                        <div className="p-2 bg-project3 rounded-3">
+                        <div className="p-2 shadow-sm rounded-3">
                             <div className="">
                                 <img
                                     className="w-100 rounded-3"
-                                    src={project2}
+                                    src={project8}
                                     alt=""
                                 />
                             </div>
+
                             <p className="pt-3">
                                 <Link
-                                    to="/works/farmi-organic"
+                                    to="/works/creative-agency"
                                     className="text-success p-0 nav-link"
                                 >
                                     Details <TiArrowRight></TiArrowRight>
@@ -87,7 +89,7 @@ const Works = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 pt-3 ">
-                        <div className="p-2 bg-project3 rounded-3">
+                        <div className="p-2 shadow-sm rounded-3">
                             <div className="">
                                 <img
                                     className="w-100 rounded-3"
