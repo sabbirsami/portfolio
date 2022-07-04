@@ -30,7 +30,7 @@ const Works = () => {
                 </div>
                 <div className="row pb-3">
                     <div className="col-lg-3 pt-3">
-                        <div className="p-2 shadow-sm rounded-3">
+                        <div className="p-2 shadow-sm border border-1 rounded-3">
                             <div className="">
                                 <img
                                     className="w-100 rounded-3"
@@ -38,7 +38,7 @@ const Works = () => {
                                     alt=""
                                 />
                             </div>
-                            <p className="pt-3">
+                            <p className="pt-2 m-1">
                                 <Link
                                     to="/works/sami-industry"
                                     className="text-success p-0 nav-link"
@@ -50,7 +50,7 @@ const Works = () => {
                     </div>
 
                     <div className="col-lg-3 pt-3">
-                        <div className="p-2 shadow-sm rounded-3">
+                        <div className="p-2 shadow-sm border border-1 rounded-3">
                             <div className="">
                                 <img
                                     className="w-100 rounded-3"
@@ -58,7 +58,7 @@ const Works = () => {
                                     alt=""
                                 />
                             </div>
-                            <p className="pt-3">
+                            <p className="pt-2 m-1">
                                 <Link
                                     to="/works/teeth-health"
                                     className="text-success p-0 nav-link"
@@ -69,7 +69,7 @@ const Works = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 pt-3 ">
-                        <div className="p-2 shadow-sm rounded-3">
+                        <div className="p-2 border border-1 shadow-sm rounded-3">
                             <div className="">
                                 <img
                                     className="w-100 rounded-3"
@@ -78,7 +78,7 @@ const Works = () => {
                                 />
                             </div>
 
-                            <p className="pt-3">
+                            <p className="pt-2 m-1">
                                 <Link
                                     to="/works/creative-agency"
                                     className="text-success p-0 nav-link"
@@ -89,7 +89,7 @@ const Works = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 pt-3 ">
-                        <div className="p-2 shadow-sm rounded-3">
+                        <div className="p-2 shadow-sm border border-1 rounded-3">
                             <div className="">
                                 <img
                                     className="w-100 rounded-3"
@@ -97,7 +97,7 @@ const Works = () => {
                                     alt=""
                                 />
                             </div>
-                            <p className="pt-3">
+                            <p className="pt-2 m-1">
                                 <Link
                                     to="/works/farmi-organic"
                                     className="text-success p-0 nav-link"
