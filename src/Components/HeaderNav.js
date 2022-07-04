@@ -10,17 +10,22 @@ import { Link } from "react-router-dom";
 
 const HeaderNav = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="none" className="py-3">
+        <Navbar
+            collapseOnSelect
+            expand="lg"
+            bg="white"
+            className="py-3 border-bottom sticky-top"
+        >
             <Container>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav "
-                    className="ms-auto d-lg-none d-block border-0 menu_button"
+                    className="mx-auto  d-lg-none d-block border-0 menu_button"
                 >
                     <div className="d-flex justify-content-between">
                         <Link className="w-25 fw-semi-bold text-dark" to="/">
                             {/* <GoHome className="mb-1"></GoHome> */}
                             <img
-                                className="w-100 ms-auto text-start"
+                                className="w-100 me-auto text-start"
                                 src={logo}
                                 alt=""
                             />
@@ -35,7 +40,11 @@ const HeaderNav = () => {
                             to="/"
                         >
                             {/* <GoHome className="mb-1"></GoHome> */}
-                            <img className="w-100 px-5" src={logo} alt="" />
+                            <img
+                                className="w-100 px-5 pt-2 mt-1"
+                                src={logo}
+                                alt=""
+                            />
                         </Link>
                         <CustomLink to="/works">WORKS</CustomLink>
                         <CustomLink to="/contact">CONTACT</CustomLink>
