@@ -9,6 +9,7 @@ import project4 from "./img/project4.jpg";
 import project5 from "./img/project5.jpg";
 import project6 from "./img/project6.jpg";
 import project7 from "./img/project7.jpg";
+import project8 from "./img/project8.jpg";
 const AllWork = () => {
     return (
         <div>
@@ -52,6 +53,23 @@ const AllWork = () => {
                         <p>
                             <Link
                                 to="/works/teeth-health"
+                                className="text-success p-0 nav-link"
+                            >
+                                Details <CgArrowLongRight></CgArrowLongRight>
+                            </Link>
+                        </p>
+                    </div>
+                    <div className="col-lg-4">
+                        <div className="py-3">
+                            <img
+                                className="w-100 rounded-3"
+                                src={project8}
+                                alt=""
+                            />
+                        </div>
+                        <p>
+                            <Link
+                                to="/works/creative-agency"
                                 className="text-success p-0 nav-link"
                             >
                                 Details <CgArrowLongRight></CgArrowLongRight>

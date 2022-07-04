@@ -10,7 +10,7 @@ body {
 }
 ::-webkit-scrollbar-thumb {
     background-color: #404040;
-    border-radius: 100px;
+    border-radius: 2px;
 }
 /* .w-15 {
     width: 160px;
