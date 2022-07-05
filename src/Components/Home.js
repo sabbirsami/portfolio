@@ -4,6 +4,7 @@ import FontContact from "./FontContact";
 import Footer from "./Footer";
 import HeaderNav from "./HeaderNav";
 import Hero from "./Hero";
+import Skill from "./Skill";
 import Works from "./Works";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <HeaderNav />
             <Hero />
             <Works />
+            {/* <Skill /> */}
             <About />
             <FontContact></FontContact>
             <Footer></Footer>

@@ -1,98 +1,65 @@
 import React from "react";
 import HeaderNav from "./HeaderNav";
+import myImage from "./File_0002.jpeg";
 
 const AboutSection = () => {
     return (
         <div>
             <HeaderNav></HeaderNav>
             <div className="container">
-                <div className="py-lg-5 p-0">
-                    {/* <h1 className="text-center">About Me</h1> */}
-                    <div className="row justify-content-between">
-                        <div className="col-lg-4">
-                            <div className="py-lg-5 p-lg-0 p-2">
-                                <div className="mb-3">
-                                    <h5 className="fw-light text-muted">
-                                        ABOUT ME
-                                    </h5>
+                <div className="px-lg-0 px-2">
+                    <div className="row">
+                        <div className="col-lg-6 mx-auto ">
+                            <div className="ps-lg-5 mx-auto ">
+                                <div className="ps-lg-5">
+                                    <div className="p-lg-5">
+                                        <img
+                                            className="w-100"
+                                            src={myImage}
+                                            alt=""
+                                        />
+                                    </div>
                                 </div>
-                                <p>
-                                    Hi! My name is Sabbir Mohammad Sami, I'm a
-                                    Junior web developer.{" "}
-                                </p>
-                                <p>
-                                    I am a hardworking, confident, enthusiastic
-                                    learner and I am always looking for
-                                    opportunities to learn new technologies. I
-                                    want to utilize my knowledge and personal
-                                    skills in Web Development. I love to use my
-                                    creativity and make something new. That's
-                                    why I love to work with React.js. I am also
-                                    down-to-earth honest, confident, fun-loving,
-                                    and caring as well.
-                                </p>
                             </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="py-lg-5 px-lg-4 p-lg-0 p-2">
-                                <div className="mb-3">
-                                    <h5 className="fw-light text-muted">
-                                        SKILLS
-                                    </h5>
-                                </div>
-                                <p>
-                                    <b>Expertise:</b> HTML, CSS, ReactJS,
-                                    JavaScript - ES6, Bootstrap 5, Tailwind CSS,
-                                    Swiper JS, Daisy UI
-                                </p>
-                                <p>
-                                    <b>Comfortable:</b> React hooq form, React
-                                    Toastify, React Router, Firebase
-                                    Authentication, React Firebase Hooks.
-                                </p>
-                                <p>
-                                    <b>Familiar:</b> NodeJS, ExpressJS, MongoDB,
-                                    CRUD Operation, React Hook Form, JWT,
-                                    Stripe, Axios, React Query, Rechart, etc.
-                                </p>
-                                <p>
-                                    <b>Tools:</b> VS Code, Github Chrome Dev
-                                    Tool, Figma, Photoshop CC, Firebase, Heroku,
-                                    Netlify, ImgBB, etc.
-                                </p>
+                            <div className="text-end hero-heading pb-5 px-lg-5">
+                                <h1>hello, I'm</h1>
+                                <h1 className="display-5">
+                                    Sabbir Mohammad Sami
+                                </h1>
                             </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="pt-lg-5 p-lg-0 p-2">
-                                <div className="mb-3">
-                                    <h5 className="fw-light text-muted">
-                                        EDUCATION
-                                    </h5>
-                                </div>
-                                <h5 className="fw-bold">
-                                    Kabi Nazrul Govt. College
-                                </h5>
-                                <p>Sep 2020 - Aug 2022</p>
-                            </div>
-                            <div className="px-lg-0 p-2">
-                                <h5 className="fw-bold">
-                                    Bangladesh National Cadet Corps
-                                </h5>
-                                <p>Sep 2020 - Aug 2022</p>
-                            </div>
-                            <div className="py-lg-4 px-lg-0 p-2">
-                                <div className="mb-3">
-                                    <h5 className="fw-light text-muted">
-                                        LANGUAGES
-                                    </h5>
-                                </div>
-                                <div>
-                                    <p className="mb-0">Bangla - (Native),</p>
-                                    <p className="mb-0">
-                                        English - (Comfortable),
-                                    </p>
-                                    <p className="mb-0">Hindi - (Fluent)</p>
-                                </div>
+                            <div className="about-me">
+                                <p>
+                                    Hi, my name is Sami! I'm a Junior Full Stack
+                                    Web developer who's really into unique
+                                    designs, CSS, animations, user experience,
+                                    and writing clean code.
+                                </p>
+                                <p>
+                                    I grew up in Dhaka, studied arts &
+                                    humanities at Kabi Nazrul Government
+                                    College, and besides my studies, I joined a
+                                    web development course named{" "}
+                                    <span className="text-danger">
+                                        'Complete Web Development Course With
+                                        Jhankar Mahbub'
+                                    </span>
+                                    . where my main growth started as a
+                                    full-stack web developer. Surprise!
+                                </p>
+                                <p>
+                                    I like to work heard and want to utilize my
+                                    knowledge and personal skills in Web
+                                    Development. I am also down-to-earth honest,
+                                    confident, fun-loving, and caring as well.
+                                </p>
+                                <p>
+                                    <span className="text-danger">
+                                        My first website, tourism, was built
+                                        when
+                                    </span>{" "}
+                                    I was reading in class 10 and it was all
+                                    about my favorite place where I want go.
+                                </p>
                             </div>
                         </div>
                     </div>
