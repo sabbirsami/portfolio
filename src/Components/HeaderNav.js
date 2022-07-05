@@ -36,12 +36,12 @@ const HeaderNav = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <Link
-                            className="d-inline w-25 fw-semi-bold text-dark"
+                            className="d-inline pe-5 w-25 fw-semi-bold text-dark"
                             to="/"
                         >
                             {/* <GoHome className="mb-1"></GoHome> */}
                             <img
-                                className="w-100 px-5 pt-2 mt-1"
+                                className="w-100 pe-5 pt-2 mt-1"
                                 src={logo}
                                 alt=""
                             />
@@ -53,14 +53,14 @@ const HeaderNav = () => {
                     </Nav>
                     <Nav>
                         <Nav.Link
-                            className="ps-2"
+                            className="ps-2 text-dark"
                             target="_blank"
                             href="https://github.com/sabbirsami"
                         >
                             <FaGithub></FaGithub>
                         </Nav.Link>
                         <Nav.Link
-                            className="ps-2"
+                            className="ps-2 text-dark"
                             target="_blank"
                             href="https://www.linkedin.com/in/sabbir-mohammad-sami"
                         >
