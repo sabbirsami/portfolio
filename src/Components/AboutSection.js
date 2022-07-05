@@ -58,7 +58,21 @@ const AboutSection = () => {
                                         when
                                     </span>{" "}
                                     I was reading in class 10 and it was all
-                                    about my favorite place where I want go.
+                                    about my favorite place where I want go. Now
+                                    My ultimate goal is to become an awesome
+                                    full-stack web developer who can make
+                                    beautiful UIs and also can handle the
+                                    back-end smoothly.
+                                </p>
+                                <p>
+                                    I'm currently looking for full-time
+                                    opportunities, my inbox is always open.
+                                    Whether for a potential project or just to
+                                    say hi, I'll try my best to answer your
+                                    email!
+                                </p>
+                                <p className="pb-5 text-muted display-5 stock fw-bold">
+                                    Happy coding!
                                 </p>
                             </div>
                         </div>

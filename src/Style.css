@@ -12,6 +12,13 @@ body {
     background-color: #404040;
     border-radius: 2px;
 }
+.stock {
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+
+    -webkit-text-stroke-color: #dddddd;
+}
 /* .w-15 {
     width: 160px;
     text-align: center;
