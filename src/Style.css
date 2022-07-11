@@ -19,6 +19,9 @@ body {
 
     -webkit-text-stroke-color: #dddddd;
 }
+.display-8 {
+    font-size: 150px;
+}
 /* .w-15 {
     width: 160px;
     text-align: center;

@@ -4,6 +4,7 @@ import FontContact from "./FontContact";
 import Footer from "./Footer";
 import HeaderNav from "./HeaderNav";
 import Hero from "./Hero";
+import NewWorksSection from "./NewWorksSection";
 import Skill from "./Skill";
 import Works from "./Works";
 
@@ -13,8 +14,9 @@ const Home = () => {
             <HeaderNav />
             <Hero />
             <Works />
+            {/* <NewWorksSection /> */}
             {/* <Skill /> */}
-            <About />
+            {/* <About /> */}
             <FontContact></FontContact>
             <Footer></Footer>
         </div>
