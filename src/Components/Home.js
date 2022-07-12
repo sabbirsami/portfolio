@@ -15,8 +15,8 @@ const Home = () => {
             <HeaderNav />
             <Hero />
             {/* <Works /> */}
-            {/* <WorkPage2 /> */}
-            <NewWorksSection />
+            <WorkPage2 />
+            {/* <NewWorksSection /> */}
             {/* <Skill /> */}
             {/* <About /> */}
             <FontContact></FontContact>
