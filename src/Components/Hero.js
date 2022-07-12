@@ -12,8 +12,8 @@ const Hero = () => {
                 //     height: "100vh",
                 // }}
             ></div>
-            <div className="container  bg-text">
-                <div className="pt-3 pt-lg-5 pb-lg-4 pb-0 text-center hero-heading">
+            <div className="container bg-text">
+                <div className="pt-3 text-white pt-lg-5 pb-lg-4 pb-0 text-center hero-heading">
                     <h1 className="">Sabbir Mohammad Sami</h1>
                     <h1>Junior Full Stack Web Developer</h1>
                     <a
@@ -26,11 +26,11 @@ const Hero = () => {
                         Download Resume
                     </a>
                 </div>
-                <div className="row">
+                <div className="row text-white">
                     <div className="col-lg-3 order-lg-1 order-3">
                         <div className="py-lg-5">
                             <div className="py-lg-4 py-2">
-                                <p className="pb-lg-4 text-muted">
+                                <p className="pb-lg-4 ">
                                     <small className="highlight">
                                         BIOGRAPHY
                                     </small>
@@ -41,7 +41,7 @@ const Hero = () => {
                                 <p>I'am Sami, an Web Developer</p>
                             </div>
                             <div className="py-lg-4">
-                                <p className="pb-lg-4 text-muted">
+                                <p className="pb-lg-4 ">
                                     <small className="highlight-2">
                                         CONTACT
                                     </small>
@@ -53,7 +53,7 @@ const Hero = () => {
                                 <p>+880 19 7070 6676</p>
                             </div>
                             <div className="py-lg-4 py-2">
-                                <p className="pb-lg-4 text-muted">
+                                <p className="pb-lg-4 ">
                                     <small className="highlight-3">
                                         SERVICES
                                     </small>
@@ -74,7 +74,7 @@ const Hero = () => {
                         <div className="text-lg-end text-start">
                             <div className="py-lg-5">
                                 <div className="py-lg-4 py-2">
-                                    <p className="pb-lg-4 text-muted">
+                                    <p className="pb-lg-4 ">
                                         <small className="highlight-3">
                                             Expertise
                                         </small>
@@ -88,7 +88,7 @@ const Hero = () => {
                                     </p>
                                 </div>
                                 <div className="py-lg-4">
-                                    <p className="pb-lg-4 text-muted">
+                                    <p className="pb-lg-4 ">
                                         <small className="highlight-2">
                                             Comfortable
                                         </small>
@@ -102,7 +102,7 @@ const Hero = () => {
                                     </p>
                                 </div>
                                 <div className="py-lg-4 py-2 ">
-                                    <p className="pb-lg-4 text-muted">
+                                    <p className="pb-lg-4 ">
                                         <small className="highlight">
                                             Familiar
                                         </small>
