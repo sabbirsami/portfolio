@@ -1,6 +1,6 @@
 import React from "react";
 import CustomLink from "./CustomLink";
-import logo from "./img/logo.png";
+import logo from "./img/logo2.png";
 import { GrLinkedinOption } from "react-icons/gr";
 import { FaGithub } from "react-icons/fa";
 import { GoHome } from "react-icons/go";
@@ -13,8 +13,9 @@ const HeaderNav = () => {
         <Navbar
             collapseOnSelect
             expand="lg"
-            bg="white"
-            className="py-3 border-bottom sticky-top"
+            bg=""
+            style={{ backgroundColor: "#323647" }}
+            className="py-3 sticky-top"
         >
             <Container>
                 <Navbar.Toggle
@@ -53,14 +54,14 @@ const HeaderNav = () => {
                     </Nav>
                     <Nav>
                         <Nav.Link
-                            className="ps-2 text-dark"
+                            className="ps-2 text-white"
                             target="_blank"
                             href="https://github.com/sabbirsami"
                         >
                             <FaGithub></FaGithub>
                         </Nav.Link>
                         <Nav.Link
-                            className="ps-2 text-dark"
+                            className="ps-2 text-white"
                             target="_blank"
                             href="https://www.linkedin.com/in/sabbir-mohammad-sami"
                         >
