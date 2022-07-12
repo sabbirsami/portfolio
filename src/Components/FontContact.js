@@ -25,7 +25,7 @@ const FontContact = () => {
         e.target.reset();
     };
     return (
-        <div style={{ backgroundColor: "#F8F7F1" }}>
+        <div style={{ backgroundColor: "#242734" }}>
             <div className="container py-5">
                 <div className="row">
                     {/* d-flex flex-column */}
