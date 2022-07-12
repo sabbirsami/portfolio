@@ -18,7 +18,7 @@ const Home = () => {
             <WorkPage2 />
             {/* <NewWorksSection /> */}
             {/* <Skill /> */}
-            {/* <About /> */}
+            <About />
             <FontContact></FontContact>
             <Footer></Footer>
         </div>

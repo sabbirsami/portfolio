@@ -29,11 +29,11 @@ const Contact = () => {
         e.target.reset();
     };
     return (
-        <div style={{ height: "100vh", backgroundColor: "#F8F7F1" }}>
+        <div style={{ height: "100vh", backgroundColor: "#242734" }}>
             <HeaderNav></HeaderNav>
             <div
                 className="d-flex py-5 align-items-center"
-                style={{ height: "94vh", backgroundColor: "#F8F7F1" }}
+                style={{ height: "94vh", backgroundColor: "#242734" }}
             >
                 <div className="container d-flex justify-content-center py-5">
                     <div className="row ">
@@ -106,7 +106,7 @@ const Contact = () => {
                                         />
                                     </Form.Group>
                                     <Button
-                                        variant="dark"
+                                        variant="light"
                                         className="rounded-1 border-0 px-5"
                                         type="submit"
                                     >
