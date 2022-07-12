@@ -8,7 +8,7 @@ import project4 from "./img/homeProject4.jpg";
 
 const NewWorksSection = () => {
     return (
-        <div>
+        <div className="">
             <div className="container py-5">
                 <div className="row pb-3">
                     <div className="col-lg-8 pt-3">
@@ -19,7 +19,7 @@ const NewWorksSection = () => {
                                         Projects
                                     </span>
                                 </h1>
-                                <p className="fs-5 text-muted">
+                                <p className="fs-5 text-muted col-lg-9">
                                     This page is set with "Filter in Grid"
                                     option, columns 3 desktop, columns 2 on
                                     mobile layout.

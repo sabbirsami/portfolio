@@ -6,6 +6,7 @@ import HeaderNav from "./HeaderNav";
 import Hero from "./Hero";
 import NewWorksSection from "./NewWorksSection";
 import Skill from "./Skill";
+import WorkPage2 from "./WorkPage2";
 import Works from "./Works";
 
 const Home = () => {
@@ -13,8 +14,9 @@ const Home = () => {
         <div>
             <HeaderNav />
             <Hero />
-            <Works />
-            {/* <NewWorksSection /> */}
+            {/* <Works /> */}
+            {/* <WorkPage2 /> */}
+            <NewWorksSection />
             {/* <Skill /> */}
             {/* <About /> */}
             <FontContact></FontContact>

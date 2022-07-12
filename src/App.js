@@ -17,7 +17,7 @@ import CreativeAgency from "./Components/Projects/CreativeAgency";
 
 function App() {
     return (
-        <div className="">
+        <div className="" style={{ backgroundColor: "#323647" }}>
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
                 <Route path="/works" element={<AllWork></AllWork>}></Route>
