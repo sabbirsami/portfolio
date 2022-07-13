@@ -18,7 +18,7 @@ import Home from "./Components/Home/Home";
 
 function App() {
     return (
-        <div className="text-white" style={{ backgroundColor: "#323647" }}>
+        <div className="text-white dark">
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
                 <Route path="/works" element={<AllWork></AllWork>}></Route>

@@ -13,16 +13,15 @@ const HeaderNav = () => {
             collapseOnSelect
             expand="lg"
             bg=""
-            style={{ backgroundColor: "#323647" }}
-            className="py-3 sticky-top"
+            className="py-3 sticky-top dark"
         >
             <Container>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav "
-                    className="mx-auto  d-lg-none d-block border-0 menu_button"
+                    className="mx-auto text-white  d-lg-none d-block border-0 menu_button"
                 >
                     <div className="d-flex justify-content-between">
-                        <Link className="w-25 fw-semi-bold text-dark" to="/">
+                        <Link className="w-25 fw-semi-bold " to="/">
                             {/* <GoHome className="mb-1"></GoHome> */}
                             <img
                                 className="w-100 me-auto text-start"
@@ -33,10 +32,10 @@ const HeaderNav = () => {
                         <VscListSelection className="menu_button" />
                     </div>
                 </Navbar.Toggle>
-                <Navbar.Collapse id="responsive-navbar-nav">
+                <Navbar.Collapse id="responsive-navbar-nav ">
                     <Nav className="me-auto">
                         <Link
-                            className="d-inline pe-5 w-25 fw-semi-bold text-dark"
+                            className="d-inline pe-5 w-25 fw-semi-bold "
                             to="/"
                         >
                             {/* <GoHome className="mb-1"></GoHome> */}

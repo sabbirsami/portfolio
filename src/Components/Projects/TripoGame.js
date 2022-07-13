@@ -18,16 +18,16 @@ const TripoGame = () => {
                                 />
                             </div>
                             <div>
-                                <span class="badge  me-2 mt-2 text-dark ">
+                                <span class="badge  me-2 mt-2">
                                     Technologies Used:
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     HTML5
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     CSS3
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     Bootstrap
                                 </span>
                             </div>

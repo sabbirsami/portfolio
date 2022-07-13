@@ -8,7 +8,7 @@ const CustomLink = ({ children, to, ...props }) => {
             <Link
                 className="nav-link p-0 m-2 fw-semi-bold"
                 style={{
-                    color: match ? "#F3244C" : "#FFFFFF",
+                    color: match ? "#F3244C" : "#ffffff",
                     fontWeight: match ? "500" : "regular",
                 }}
                 to={to}

@@ -33,7 +33,9 @@ const FontContact2 = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="divider mb-4"></div>
-                        <h1>Let's work together.</h1>
+                        <h1 className="display-5 fw-semibold ">
+                            Let's work together.
+                        </h1>
                     </div>
                     <div className="col-lg-6">
                         <div className="pt-lg-5 pb-4 mt-auto">

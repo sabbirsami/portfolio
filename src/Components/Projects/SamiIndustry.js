@@ -18,49 +18,49 @@ const SamiIndustry = () => {
                                 />
                             </div>
                             <div>
-                                <span class="badge  me-2 mt-2 text-dark ">
+                                <span class="badge  me-2 mt-2">
                                     Technologies Used:
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     React JS
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     Javascript
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     React Bootstrap
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     NodeJS
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     ExpressJS
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     Firebase
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     JWT
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     MongoDB
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     Heroku
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     Stripe
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     React Query
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     React Hot Tost
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     React Hook Form
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 text-dark ">
+                                <span class="badge border border-1 me-2 mt-2">
                                     ImgBB
                                 </span>
                             </div>

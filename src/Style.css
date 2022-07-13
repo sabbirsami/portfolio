@@ -22,11 +22,10 @@ body {
 .display-8 {
     font-size: 130px;
 }
-.divider {
-    height: 5px;
-    width: 110px;
-    background-color: #ffffff;
+.fw-semibold {
+    font-weight: 500;
 }
+
 /* .w-15 {
     width: 160px;
     text-align: center;
@@ -90,3 +89,58 @@ body {
     background-size: cover;
     height: 50px;
 } */
+
+/* GRADIENT STYLE  */
+.header__hero--heading-gradient {
+    background: -webkit-linear-gradient(
+        135deg,
+        (#6bc5f8),
+        (#cf59e6),
+        (#6bc5f8),
+        (#cf59e6)
+    );
+    background: linear-gradient(
+        -45deg,
+        (#6bc5f8),
+        (#cf59e6),
+        (#6bc5f8),
+        (#cf59e6)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+    -webkit-animation: gradient 3s ease infinite;
+    animation: gradient 3s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+.light {
+    background-color: #ffffff;
+}
+.dark {
+    background-color: #323647;
+}
+.light .contact-bg {
+    background-color: #f8f7f1;
+}
+.light .divider {
+    height: 5px;
+    width: 110px;
+    background-color: #000000;
+}
+.dark .divider {
+    height: 5px;
+    width: 110px;
+    background-color: #ffffff;
+}
