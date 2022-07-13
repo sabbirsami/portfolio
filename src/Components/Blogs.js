@@ -7,7 +7,7 @@ const Blogs = () => {
             <HeaderNav></HeaderNav>
             <div
                 className="d-flex justify-content-center align-items-center"
-                style={{ height: "90vh" }}
+                style={{ height: "92vh" }}
             >
                 <h5>Coming soon...</h5>
             </div>

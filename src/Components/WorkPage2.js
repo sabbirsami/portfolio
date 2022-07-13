@@ -39,7 +39,7 @@ const WorkPage2 = () => {
                         </div>
                         <div className="py-lg-4">
                             <Link to="/works/sami-industry">
-                                <div className="col-lg-10 me-auto">
+                                <div className="col-lg-12 me-auto">
                                     <div className="p-2 shadow-sm border border-1 rounded-3">
                                         <div className="">
                                             <img
