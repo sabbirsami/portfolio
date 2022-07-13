@@ -25,7 +25,7 @@ const AllWork = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-sm-6">
                         <div className="py-3">
                             <img
                                 className="w-100 rounded-3"
@@ -42,7 +42,7 @@ const AllWork = () => {
                             </Link>
                         </p>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-sm-6">
                         <div className="py-3">
                             <img
                                 className="w-100 rounded-3"
@@ -59,7 +59,7 @@ const AllWork = () => {
                             </Link>
                         </p>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-sm-6">
                         <div className="py-3">
                             <img
                                 className="w-100 rounded-3"
@@ -76,7 +76,7 @@ const AllWork = () => {
                             </Link>
                         </p>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-sm-6">
                         <div className="py-3">
                             <img
                                 className="w-100 rounded-3"
@@ -93,7 +93,7 @@ const AllWork = () => {
                             </Link>
                         </p>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-sm-6">
                         <div className="py-3">
                             <img
                                 className="w-100 rounded-3"
@@ -110,7 +110,7 @@ const AllWork = () => {
                             </Link>
                         </p>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-sm-6">
                         <div className="py-3">
                             <img
                                 className="w-100 rounded-3"
@@ -128,7 +128,7 @@ const AllWork = () => {
                         </p>
                     </div>
 
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-sm-6">
                         <div className="py-3">
                             <img
                                 className="w-100 rounded-3"
@@ -145,7 +145,7 @@ const AllWork = () => {
                             </Link>
                         </p>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-sm-6">
                         <div className="py-3">
                             <img
                                 className="w-100 rounded-3"

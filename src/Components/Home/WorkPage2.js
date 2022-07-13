@@ -11,7 +11,7 @@ const WorkPage2 = () => {
         <div className="pt-lg-4">
             <div className="container py-5">
                 <div className="row align-self-start">
-                    <div className="col-lg-6 d-inline">
+                    <div className="col-lg-6 col-md-6 d-inline">
                         <div className="">
                             <div>
                                 <p>Projects</p>
@@ -61,7 +61,7 @@ const WorkPage2 = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className="col-lg-6 pt-3">
+                    <div className="col-lg-6 col-md-6 pt-3">
                         <div className=" mb-3">
                             <Link
                                 to="/works/teeth-health"

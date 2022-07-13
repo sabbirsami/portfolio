@@ -27,7 +27,7 @@ const Hero = () => {
                     </a>
                 </div>
                 <div className="row">
-                    <div className="col-lg-3 order-lg-1 order-3">
+                    <div className="col-lg-3 col-sm-6 order-lg-1 order-3">
                         <div className="py-lg-5">
                             <div className="py-lg-4 py-2">
                                 <p className="pb-lg-4 ">
@@ -65,13 +65,13 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-5 mx-auto order-lg-2 order-1">
+                    <div className="col-lg-5 col-sm-8  mx-auto order-lg-2 order-1">
                         <div className="image-section">
                             <img className="w-100" src={profile} alt="" />
                         </div>
                     </div>
-                    <div className="col-lg-3 order-lg-3 order-2">
-                        <div className="text-lg-end text-start">
+                    <div className="col-lg-3 col-sm-6 order-lg-3 order-2">
+                        <div className="text-lg-end text-sm-end  text-start">
                             <div className="py-lg-5">
                                 <div className="py-lg-4 py-2">
                                     <p className="pb-lg-4 ">

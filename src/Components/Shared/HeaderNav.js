@@ -11,14 +11,14 @@ const HeaderNav = () => {
     return (
         <Navbar
             collapseOnSelect
-            expand="lg"
+            expand="md"
             bg=""
             className="py-3 sticky-top dark"
         >
             <Container>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav "
-                    className="mx-auto text-white  d-lg-none d-block border-0 menu_button"
+                    className="mx-auto text-white  d-lg-none d-md-none d-block border-0 menu_button"
                 >
                     <div className="d-flex justify-content-between">
                         <Link className="w-25 fw-semi-bold " to="/">
