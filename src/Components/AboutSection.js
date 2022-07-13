@@ -54,7 +54,7 @@ const AboutSection = () => {
                                     confident, fun-loving, and caring as well.
                                 </p>
                                 <p>
-                                    <span className="text-danger">
+                                    <span className="">
                                         My first website, tourism, was built
                                         when
                                     </span>{" "}

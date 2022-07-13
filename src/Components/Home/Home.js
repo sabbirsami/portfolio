@@ -1,6 +1,7 @@
 import React from "react";
 import About from "./About";
-import FontContact from "../FontContact";
+import FontContact from "./FontContact";
+import FontContact2 from "./FontContact2";
 import Footer from "../Shared/Footer";
 import HeaderNav from "../Shared/HeaderNav";
 import Hero from "./Hero";
@@ -19,8 +20,9 @@ const Home = () => {
             {/* <NewWorksSection /> */}
             {/* <Skill /> */}
             <About />
-            <FontContact></FontContact>
-            <Footer></Footer>
+            {/* <FontContact /> */}
+            <FontContact2 />
+            <Footer />
         </div>
     );
 };
