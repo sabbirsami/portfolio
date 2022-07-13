@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HeaderNav from "./HeaderNav";
 import { CgArrowLongRight } from "react-icons/cg";
 import project1 from "./img/project1.jpg";
 import project2 from "./img/project2.jpg";
@@ -10,6 +9,7 @@ import project5 from "./img/project5.jpg";
 import project6 from "./img/project6.jpg";
 import project7 from "./img/project7.jpg";
 import project8 from "./img/project8.jpg";
+import HeaderNav from "./Shared/HeaderNav";
 const AllWork = () => {
     return (
         <div>

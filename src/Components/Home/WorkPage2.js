@@ -1,10 +1,10 @@
 import React from "react";
 import { TiArrowRight } from "react-icons/ti";
 import { Link } from "react-router-dom";
-import project1 from "./img/projectDesign1.jpg";
-import project2 from "./img/projectDesign2.jpg";
-import project3 from "./img/projectDesign3.jpg";
-import project8 from "./img/projectDesign1.jpg";
+import project1 from "../img/projectDesign1.jpg";
+import project2 from "../img/projectDesign2.jpg";
+import project3 from "../img/projectDesign3.jpg";
+import project8 from "../img/projectDesign1.jpg";
 
 const WorkPage2 = () => {
     return (

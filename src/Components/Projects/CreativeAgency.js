@@ -1,6 +1,6 @@
 import React from "react";
-import HeaderNav from "../HeaderNav";
 import project8 from "../img/project8.jpg";
+import HeaderNav from "../Shared/HeaderNav";
 
 const CreativeAgency = () => {
     return (

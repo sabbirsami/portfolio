@@ -1,6 +1,7 @@
 import React from "react";
-import HeaderNav from "./HeaderNav";
+
 import myImage from "./File_0002.jpeg";
+import HeaderNav from "./Shared/HeaderNav";
 
 const AboutSection = () => {
     return (
@@ -39,7 +40,7 @@ const AboutSection = () => {
                                     humanities at Kabi Nazrul Government
                                     College, and besides my studies, I joined a
                                     web development course named{" "}
-                                    <span className="text-danger">
+                                    <span className="">
                                         'Complete Web Development Course With
                                         Jhankar Mahbub'
                                     </span>

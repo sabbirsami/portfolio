@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderNav from "../HeaderNav";
+import HeaderNav from "../Shared/HeaderNav";
 import project1 from "../img/project1.jpg";
 
 const SamiIndustry = () => {

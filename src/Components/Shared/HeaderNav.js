@@ -1,9 +1,8 @@
 import React from "react";
-import CustomLink from "./CustomLink";
-import logo from "./img/logo2.png";
+import CustomLink from "../Shared/CustomLink";
+import logo from "../img/logo2.png";
 import { GrLinkedinOption } from "react-icons/gr";
 import { FaGithub } from "react-icons/fa";
-import { GoHome } from "react-icons/go";
 import { VscListSelection } from "react-icons/vsc";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";

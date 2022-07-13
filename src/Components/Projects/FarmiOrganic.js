@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderNav from "../HeaderNav";
+import HeaderNav from "../Shared/HeaderNav";
 import project2 from "../img/project2.jpg";
 
 const FarmiOrganic = () => {

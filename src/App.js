@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Style.css";
 import Contact from "./Components/Contact";
-import Home from "./Components/Home";
+
 import { Route, Routes } from "react-router-dom";
 import AllWork from "./Components/AllWork";
 import SamiIndustry from "./Components/Projects/SamiIndustry";
@@ -14,6 +14,7 @@ import TeethHealth from "./Components/Projects/TeethHealth";
 import AboutSection from "./Components/AboutSection";
 import Blogs from "./Components/Blogs";
 import CreativeAgency from "./Components/Projects/CreativeAgency";
+import Home from "./Components/Home/Home";
 
 function App() {
     return (

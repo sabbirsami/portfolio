@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderNav from "../HeaderNav";
+import HeaderNav from "../Shared/HeaderNav";
 import project4 from "../img/project4.jpg";
 
 const GoldenConventionCenter = () => {

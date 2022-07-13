@@ -1,10 +1,10 @@
 import React from "react";
 import { TiArrowRight } from "react-icons/ti";
 import { Link } from "react-router-dom";
-import project1 from "./img/project1.jpg";
-import project2 from "./img/project2.jpg";
-import project7 from "./img/project7.jpg";
-import project8 from "./img/project8.jpg";
+import project1 from "../img/project1.jpg";
+import project2 from "../img/project2.jpg";
+import project7 from "../img/project7.jpg";
+import project8 from "../img/project8.jpg";
 
 const Works = () => {
     return (

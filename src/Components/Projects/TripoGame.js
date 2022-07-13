@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderNav from "../HeaderNav";
+import HeaderNav from "../Shared/HeaderNav";
 import project5 from "../img/project5.jpg";
 
 const TripoGame = () => {

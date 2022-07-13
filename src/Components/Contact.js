@@ -1,10 +1,10 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import HeaderNav from "./HeaderNav";
 import { HiLocationMarker } from "react-icons/hi";
 import { AiFillPhone } from "react-icons/ai";
 import { IoMail } from "react-icons/io5";
 import { Button, Form } from "react-bootstrap";
+import HeaderNav from "./Shared/HeaderNav";
 
 const Contact = () => {
     const form = useRef();
