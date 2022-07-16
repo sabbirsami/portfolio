@@ -67,7 +67,11 @@ const Hero = () => {
                     </div>
                     <div className="col-lg-5 col-sm-8  mx-auto order-lg-2 order-1">
                         <div className="image-section">
-                            <img className="w-100" src={profile} alt="" />
+                            <img
+                                className="w-100 hero_image"
+                                src={profile}
+                                alt=""
+                            />
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6 order-lg-3 order-2">

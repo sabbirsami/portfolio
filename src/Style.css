@@ -125,6 +125,9 @@ body {
         background-position: 0 50%;
     }
 }
+/* .hero_image {
+    filter: drop-shadow(0px 0px 8px #242734);
+} */
 .light {
     background-color: #ffffff;
 }

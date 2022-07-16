@@ -60,26 +60,27 @@ const CreativeAgency = () => {
                                 <span class="badge border border-1 me-2 mt-2 ">
                                     React Hook Form
                                 </span>
-                                <span class="badge border border-1 me-2 mt-2 ">
+                                {/* <span class="badge border border-1 me-2 mt-2 ">
                                     ImgBB
-                                </span>
+                                </span> */}
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="py-3 px-2">
                                 <h5 className="fw-bold">Creative Agency</h5>
-                                <p>
+                                {/* <p>
                                     <i>
                                         <small className="text-danger">
                                             * Still working on this project
                                         </small>
                                     </i>
-                                </p>
+                                </p> */}
                                 <p>
-                                    This is tools manufacturer website. Where
-                                    user can order tools. In this website users
-                                    also able to pay for their ordered tools
-                                    using Credit/Divide card
+                                    This website is all about service provider.
+                                    Where we have 3 type of service and user can
+                                    order service. In this website users also
+                                    able to pay for their ordered service using
+                                    Credit/Divide card.
                                 </p>
                                 <p>
                                     <h6>Overview:</h6>
@@ -90,7 +91,7 @@ const CreativeAgency = () => {
                                         </li>
                                         <li className="pb-2">
                                             On this website users can order
-                                            products and pay for this product
+                                            service and pay for this service
                                             Users can also be able to give
                                             review.
                                         </li>
@@ -100,16 +101,20 @@ const CreativeAgency = () => {
                                             add and remove product and reviews
                                         </li>
                                         <li className="pb-2">
+                                            Admin can manage all order also
+                                            manage user and so many.
+                                        </li>
+                                        {/* <li className="pb-2">
                                             Implemented JWT token for security
                                             purpose.
-                                        </li>
-                                        <li className="pb-2">
+                                        </li> */}
+                                        {/* <li className="pb-2">
                                             Admin can upload tools image
                                             directly from their local file and
                                             it will automatically upload to
                                             ibb.co website and set this link in
                                             the database.
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </p>
                                 <button className="btn btn-white ">
