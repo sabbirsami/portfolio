@@ -1,91 +1,138 @@
 import React from "react";
-import react from "./icons/react.png";
-import javaScript from "./icons/javascript.png";
-import node from "./icons/nodejs.png";
-import express from "./icons/express.png";
-import bootstrap from "./icons/bootstrap.png";
-import tailwind from "./icons/Tailwind_CSS_Logo.svg.png";
-import mongodb from "./icons/mongodb.png";
+import Marquee from "react-fast-marquee";
 
 const Skill = () => {
     return (
-        <div style={{ backgroundColor: "#F8F7F1" }}>
-            <div className="container py-5">
+        <div>
+            <div className="container-fluid">
                 {/* <h1>Skill</h1> */}
-                <div className="row">
-                    <div className="col-lg-6">
-                        <div className="row align-items-center">
-                            <div
-                                className="skill-img m-3"
-                                style={{ width: "90px" }}
-                            >
-                                <img className="img-fluid" src={react} alt="" />
-                            </div>
-                            <div
-                                className="skill-img m-3"
-                                style={{ width: "90px" }}
-                            >
-                                <img
-                                    className="img-fluid"
-                                    src={express}
-                                    alt=""
-                                />
-                            </div>
-                            <div
-                                className="skill-img m-3"
-                                style={{ width: "90px" }}
-                            >
-                                <img
-                                    className="img-fluid"
-                                    src={mongodb}
-                                    alt=""
-                                />
-                            </div>
-                            <div
-                                className="skill-img m-3"
-                                style={{ width: "90px" }}
-                            >
-                                <img
-                                    className="img-fluid"
-                                    src={bootstrap}
-                                    alt=""
-                                />
-                            </div>
-                            <div className="row align-items-center">
-                                <div
-                                    className="skill-img m-3"
-                                    style={{ width: "90px" }}
-                                >
-                                    <img
-                                        className="img-fluid"
-                                        src={node}
-                                        alt=""
-                                    />
-                                </div>
-                                <div
-                                    className="skill-img m-3"
-                                    style={{ width: "90px" }}
-                                >
-                                    <img
-                                        className="img-fluid"
-                                        src={tailwind}
-                                        alt=""
-                                    />
-                                </div>
-                                <div
-                                    className="skill-img m-3"
-                                    style={{ width: "90px" }}
-                                >
-                                    <img
-                                        className="img-fluid"
-                                        src={javaScript}
-                                        alt=""
-                                    />
-                                </div>
-                            </div>
+                <div className="row mb-5">
+                    <Marquee gradient={false}>
+                        <div className="button-wrapper mt-4 mb-3 mx-2">
+                            <button className="button">React JS</button>
+                            <div class="button-bg"></div>
                         </div>
-                    </div>
-                    <div className="col-lg-6"></div>
+                        <div className="button-wrapper mt-4 mb-3 mx-2">
+                            <button className="button-2">Node JS</button>
+                            <div class="button-bg-2"></div>
+                        </div>
+                        <div className="button-wrapper mt-4 mb-3 mx-2">
+                            <button className="button">Express JS</button>
+                            <div class="button-bg"></div>
+                        </div>
+                        <div className="button-wrapper mt-4 mb-3 mx-2">
+                            <button className="button">Bootstrap</button>
+                            <div class="button-bg-3"></div>
+                        </div>
+                        <div className="button-wrapper mt-4 mb-3 mx-2">
+                            <button className="button">MongoDB</button>
+                            <div class="button-bg"></div>
+                        </div>
+                        <div className="button-wrapper mt-4 mb-3 mx-2">
+                            <button className="button-2">Tailwind CSS</button>
+                            <div class="button-bg"></div>
+                        </div>
+                        <div className="button-wrapper mt-4 mb-3 mx-2">
+                            <button className="button">Firebase</button>
+                            <div class="button-bg"></div>
+                        </div>
+                        <div className="button-wrapper mt-4 mb-3 mx-2">
+                            <button className="button-2">JavaScript</button>
+                            <div class="button-bg"></div>
+                        </div>
+                        <div className="button-wrapper mt-4 mb-3 mx-2">
+                            <button className="button">HTML 5</button>
+                            <div class="button-bg"></div>
+                        </div>
+                        <div className="button-wrapper mt-4 mb-3 mx-2">
+                            <button className="button">CSS 3</button>
+                            <div class="button-bg"></div>
+                        </div>
+                        <div className="button-wrapper mt-4 mb-3 mx-2">
+                            <button className="button-2">
+                                React hooq form
+                            </button>
+                            <div class="button-bg-2"></div>
+                        </div>
+                        <div className="button-wrapper mt-4 mb-3 mx-2">
+                            <button className="button">React Query</button>
+                            <div class="button-bg"></div>
+                        </div>
+                        <div className="button-wrapper mt-4 mb-3 mx-2">
+                            <button className="button">Daisy UI</button>
+                            <div class="button-bg"></div>
+                        </div>
+                        <div className="button-wrapper mt-4 mb-3 mx-2">
+                            <button className="button">JWT</button>
+                            <div class="button-bg"></div>
+                        </div>
+                    </Marquee>
+                    {/* <Marquee gradient={false}>
+                        <div className="button-wrapper mb-5 mt-3 mx-2">
+                            <button className="button">MongoDB</button>
+                            <div class="button-bg"></div>
+                        </div>
+
+                        <div className="button-wrapper mb-5 mt-3 mx-2">
+                            <button className="button">Bootstrap</button>
+                            <div class="button-bg-3"></div>
+                        </div>
+                        <div className="button-wrapper mb-5 mt-3 mx-2">
+                            <button className="button-2">Tailwind CSS</button>
+                            <div class="button-bg"></div>
+                        </div>
+                        <div className="button-wrapper mb-5 mt-3 mx-2">
+                            <button className="button">Daisy UI</button>
+                            <div class="button-bg"></div>
+                        </div>
+                        <div className="button-wrapper mb-5 mt-3 mx-2">
+                            <button className="button">CSS 3</button>
+                            <div class="button-bg"></div>
+                        </div>
+
+                        <div className="button-wrapper mb-5 mt-3 mx-2">
+                            <button className="button">React JS</button>
+                            <div class="button-bg"></div>
+                        </div>
+                        <div className="button-wrapper mb-5 mt-3 mx-2">
+                            <button className="button-2">
+                                React hooq form
+                            </button>
+                            <div class="button-bg-2"></div>
+                        </div>
+                        
+                        <div className="button-wrapper mb-5 mt-3 mx-2">
+                            <button className="button-2">Node JS</button>
+                            <div class="button-bg-2"></div>
+                        </div>
+                        <div className="button-wrapper mb-5 mt-3 mx-2">
+                            <button className="button">Firebase</button>
+                            <div class="button-bg"></div>
+                        </div>
+                        <div className="button-wrapper mb-5 mt-3 mx-2">
+                            <button className="button">JWT</button>
+                            <div class="button-bg"></div>
+                        </div>
+
+                        <div className="button-wrapper mb-5 mt-3 mx-2">
+                            <button className="button">React Query</button>
+                            <div class="button-bg"></div>
+                        </div>
+
+                        <div className="button-wrapper mb-5 mt-3 mx-2">
+                            <button className="button">Express JS</button>
+                            <div class="button-bg"></div>
+                        </div>
+
+                        <div className="button-wrapper mb-5 mt-3 mx-2">
+                            <button className="button-2">JavaScript</button>
+                            <div class="button-bg"></div>
+                        </div>
+                        <div className="button-wrapper mb-5 mt-3 mx-2">
+                            <button className="button">HTML 5</button>
+                            <div class="button-bg"></div>
+                        </div>
+                    </Marquee> */}
                 </div>
             </div>
         </div>

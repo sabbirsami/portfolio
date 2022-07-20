@@ -17,8 +17,8 @@ const Home = () => {
             <Hero />
             {/* <Works /> */}
             <WorkPage2 />
+            <Skill />
             {/* <NewWorksSection /> */}
-            {/* <Skill /> */}
             {/* <About /> */}
             {/* <FontContact /> */}
             <FontContact2 />
